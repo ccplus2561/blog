@@ -1,7 +1,38 @@
 var postData = [
   {
+    version: "🚀 - 網站升級 (61103",
+    isExpanded: true,
+    logs: [
+      {
+        tag: "新增",
+        title: "文章標籤功能",
+        content: "文章上方標籤，相關關字詞。"
+      },
+      {
+        tag: "新增",
+        title: "文章標籤搜尋",
+        content: "點擊或搜尋標籤，快速探索相關文章。"
+      },
+      {
+        tag: "新增",
+        title: "清單與圖卡",
+        content: "支援清單與圖卡雙模式，提升瀏覽體驗。"
+      },
+      {
+        tag: "優化",
+        title: "搜尋結果",
+        content: "優化搜尋結果引導。"
+      },
+      {
+        tag: "優化",
+        title: "圖片載入",
+        content: "若圖片載入失敗，系統會自動切換顯示預設LOGO"
+      }
+    ]
+  },
+  {
     version: "📖 - 新講義 (61030",
-    isExpanded:  true,
+    isExpanded:  false,
     logs: [
       {
         tag: "上架",
