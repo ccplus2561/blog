@@ -1,7 +1,18 @@
 var postData = [
   {
+    version: "📖 - 新講義 (61106",
+    isExpanded:  true,
+    logs: [
+      {
+        tag: "上架",
+        title: "Arduino 教學",
+        content: "Ch02 - 新版 Arduino教學14篇(舊頻道翻新版本)。"
+      }
+    ]
+  },
+  {
     version: "🚀 - 網站升級 (61103",
-    isExpanded: true,
+    isExpanded: false,
     logs: [
       {
         tag: "新增",
@@ -37,7 +48,7 @@ var postData = [
       {
         tag: "上架",
         title: "Arduino 教學",
-        content: "Ch01 - 就頻道 Arduino教學78篇。"
+        content: "Ch01 - 舊頻道 Arduino教學78篇。"
       }
     ]
   },
