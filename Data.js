@@ -942,7 +942,8 @@ var courseData = [
       {
         "title": "P01 - Uno R3 / Mega 2560 教學",
         "id": "6083101",
-        "type": "P"
+        "type": "P",
+        "subchapters": []
       },
       {
         "title": "P02 - Esp32 教學 (motoduino)",
@@ -5637,6 +5638,1275 @@ var courseData = [
               "寫程式",
               "Esp32",
               "LED"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Ch02 - 新版 Arduino教學",
+        "id": "6083105",
+        "type": "Ch",
+        "sections": [
+          {
+            "title": "Ex01 - 安裝Arduino軟體",
+            "id": "608310501",
+            "mode": "article",
+            "coverUrl": "https://lh3.googleusercontent.com/pw/AP1GczMFBYzuSUVTP1bbMGkZVPS6k1yv9HWL0aDSCHa9mNpYTxpJRU6Ls22j-AnYNJ8pOHr1QpGTpIVMxCdLg2qe_hpIVTkvsoFx-RqyscUpiX-sRWkgKYF0PomiaI5CO15AjwWEQgpHt1HrjYCZbUiNkVyY=w1600-h900-s-no-gm?authuser=0",
+            "buttons": [
+              {
+                "title": "Arduino 官網連結",
+                "url": "https://www.arduino.cc/"
+              },
+              {
+                "title": "Arduino IDE連結",
+                "url": "https://www.arduino.cc/en/software"
+              }
+            ],
+            "access": "password",
+            "accessPassword": "ALO",
+            "blocks": [
+              {
+                "type": "video",
+                "content": "https://youtu.be/hA-YOzXShzs?si=sNf9fYWP4aKMmh4S"
+              },
+              {
+                "type": "text",
+                "content": "甚麼是Arduino呢?\n\nArduino是一種小型主機板。\n這種開發板配有一組數字和類比I/0腳，可以連接各種擴充板或麵包版和其他電路。\n這些電路板具有串列埠，包括某些型號上的通用串列匯流排，也用於從個人電腦載入程式。\n軟體編程方面，通常使用C語言，官方提供了一個Arduino IDE用開發。"
+              },
+              {
+                "type": "text",
+                "content": "Arduino軟體下載\nArduino 官網連結： [ https://www.arduino.cc/ ]"
+              },
+              {
+                "type": "text",
+                "content": "步驟一：軟件Software\nArduino IDE連結:[ https://www.arduino.cc/en/software ]"
+              },
+              {
+                "type": "image",
+                "content": "https://lh3.googleusercontent.com/pw/AP1GczM40oXnfNGGTUZRJZ0tQ7LQpvdMSRTlcoxlIZogJuy6wVxEefPxlLAThhVJzuQaVadsFGna8d2JCaM47QocJeFCbk1SMHwwFh2X600zEoQIa3iqO9-gD-pnDv12OukB5EofvZnsa337tfqLmgkML6Gx=w1837-h911-s-no-gm?authuser=0"
+              },
+              {
+                "type": "text",
+                "content": "步驟二：視窗 壓縮文件\n依需求選擇下載版\n目前推出是Arduino IDE 1.8.19，破解者已1.8.19 ZIP為例。"
+              },
+              {
+                "type": "image",
+                "content": "https://lh3.googleusercontent.com/pw/AP1GczNEfQ6oIKfhRz6OlpqRFGu-fGslHd8ZDT47MlggZccUyXRH4Q84dU06hMIC803OIp4EqCaSdJycD1zAHr58vuwrQWKacqRDio5tZK1XlQ6q1T4NBhiN2KQNXkof0jf5N69lFGeqILAp0Wj3EIRRrA_J=w1123-h457-s-no-gm?authuser=0"
+              },
+              {
+                "type": "text",
+                "content": "步驟三：只需下載\n這裡有一個隱藏按鈕 點下只需下載。"
+              },
+              {
+                "type": "image",
+                "content": "https://lh3.googleusercontent.com/pw/AP1GczNXIdW-VXa1tLieBi1324vKCZEMzWOstR__Kl9Ha1HfsLDP4_pjjORdFs6Lw3pKQscd8b_iW6IxhtqtG9O9L8U2Quh31v9j2y8_R3FbjvU6IuJhg9PEr0znabq-GYrfvupgcRGHQ-8ssF5trQKnpZwl=w792-h442-s-no-gm?authuser=0"
+              },
+              {
+                "type": "text",
+                "content": "步驟四：選擇 下載位置。"
+              },
+              {
+                "type": "image",
+                "content": "https://lh3.googleusercontent.com/pw/AP1GczPBd0Mqkq1EVrAmmGop1Q-z8AufQ6Jthn57jYMd9-0pBJU2W5v1RivUQoGa2QPGGv56NGnJOnKTye7zcI3q0qVvbIbZbvCEqABBX4e9opoWg7gmChByt1oYjkhQQhM8DvEuN-CtqpVhp6_7QJxgcoJY=w942-h591-s-no-gm?authuser=0"
+              },
+              {
+                "type": "text",
+                "content": "步驟五： 解壓縮檔案\n解壓縮位置自行選擇 (今後可能需要檔案路徑!! 務必記好)"
+              },
+              {
+                "type": "image",
+                "content": "https://lh3.googleusercontent.com/pw/AP1GczMg5XrPY5eWcYx76RZGKdK223RjKwIqC4RsZN7l-UVV5gUdLN6B3Q3pegNfxNvrd51o18fgs5cykd1CRdhl-ABXI0z0OkHbEnk3JgRNR5AcsQwV9bJZsuTxsbq6hvg2k7haDzsofYKUD6ydajUpBJ24=w1010-h741-s-no-gm?authuser=0"
+              },
+              {
+                "type": "text",
+                "content": "步驟六： 開啟Arduino\n進入解壓縮後的位置，開啟Arduin"
+              },
+              {
+                "type": "image",
+                "content": "https://lh3.googleusercontent.com/pw/AP1GczPVCpcDAsDlitxx5y4o9FWXT_-kg9uu_dEz_dM3wL5XVWJDUdA50-FLUJJkfy0mGxNQASHZ_MuloJEhf1266_QFAUV2MiKTTKfImoRFXA9kFvwA1ZDwH6UbB30BRP--xV_mYOM7PV9mHHJd-fUMKwCr=w1407-h748-s-no-gm?authuser=0"
+              },
+              {
+                "type": "text",
+                "content": "步驟七： 個人化設置 \n檔案 > 偏好設定 調整個人化設"
+              },
+              {
+                "type": "image",
+                "content": "https://lh3.googleusercontent.com/pw/AP1GczOx2UWQFMMGyOTXXxdaJ0TySdJRFIPz5x5J2yR7FJoGId_hqOOm55yJu3ORf4bQLWibx7rgbRPiKmorkE5qx5joKrH08WqmoJuuTp2akOaO1Twgma6FcmiNV_M2FlJlBJUp3CyDN2KKv2yXWda8epYo=w801-h585-s-no-gm?authuser=0"
+              }
+            ],
+            "tags": [
+              "Arduino",
+              "Uno",
+              "Mega2560",
+              "下載",
+              "安裝"
+            ]
+          },
+          {
+            "title": "Ex02 - Arduino線上編輯器",
+            "id": "608310502",
+            "mode": "article",
+            "coverUrl": "https://lh3.googleusercontent.com/pw/AP1GczMSWP3T4oW9G9kYkKj_FHeocZLjSTkLkx_LAU1nEV0jo1KluaVFoXDF5QpaHiz26JKSwZwAt3f0mdxYvqo2grgM-SrQjWaLLhj2wQe0yx-ah-2NT96Wn-ewX11JF7vxUpkGf_Mpg5Rdrf7K5JJflbWj=w1600-h900-s-no-gm?authuser=0",
+            "buttons": [
+              {
+                "title": "Arduino 官網連結",
+                "url": "https://www.arduino.cc/"
+              },
+              {
+                "title": "Arduino 網頁驅動連結",
+                "url": "https://create.arduino.cc/getting-started/plugin/welcome"
+              }
+            ],
+            "access": "password",
+            "accessPassword": "ALO",
+            "blocks": [
+              {
+                "type": "video",
+                "content": "https://youtu.be/l1r0JnHov-s?si=bNvVyIYfIMrkanCJ"
+              },
+              {
+                "type": "text",
+                "content": "甚麼是Arduino呢?\n\nArduino是一種小型主機板。\n這種開發板配有一組數字和類比I/0腳，可以連接各種擴充板或麵包版和其他電路。\n這些電路板具有串列埠，包括某些型號上的通用串列匯流排，也用於從個人電腦載入程式。\n軟體編程方面，通常使用C語言，官方提供了一個Arduino IDE用開發。"
+              },
+              {
+                "type": "text",
+                "content": "Arduino軟體下載\nArduino 官網連結： [ https://www.arduino.cc/ ]"
+              },
+              {
+                "type": "text",
+                "content": "步驟一：登入SIGN IN"
+              },
+              {
+                "type": "image",
+                "content": "https://lh3.googleusercontent.com/pw/AP1GczPfd0JoY7eJnxqGyxqZe9sCsrdk9Ox-tSTqHnBzLxH3t_3dYJh8R0sTWpMdCR9UVRNA_3FzajNA66xTcxzIdw9UvQ7hePxhq_RnPhSOsvZ4YqcWEvqu1CZA_sd1c3h9_DqlnUlb-PunUiRcKHk4Tbjx=w1847-h911-s-no-gm?authuser=0"
+              },
+              {
+                "type": "text",
+                "content": "步驟二：註冊 / 登入\n\n選擇個人登入方式 (如: google . GitHub . Facebook . Apple...等方式) \n破解者已Google帳戶為例。"
+              },
+              {
+                "type": "image",
+                "content": "https://lh3.googleusercontent.com/pw/AP1GczMCdZmUMapezFLGs6GsY2UBRfYHW8q1Uxt8XrpKceYMBY-cHxAut0PGaNuBH2w34YC0A3lSOl5O18ZmXGkjMKRMl5uoEc_QdAlVJMBG0DhVahB7UCkCZfZs72oWxVHIH0OruuLguijJLkao7Dvl-elk=w1855-h911-s-no-gm?authuser=0"
+              },
+              {
+                "type": "text",
+                "content": "步驟三： 創建帳號建立用戶名 . 同意相關條款與規定 (大家務必閱讀呦!!)"
+              },
+              {
+                "type": "image",
+                "content": "https://lh3.googleusercontent.com/pw/AP1GczOdH7jFAMB8M1zK301WVkWllx7SqKS9OCjCHxHNJVcPz_-qe3RathS6ZKsT57WEGXS_jFoAkpudWMFkgilvNInKFVO2GYrrgtIqEMeFtuA2NwYJyUUW85ffgTAbksS1VRb4t6lEUe9fP0E0r14hWMeG=w506-h708-s-no-gm?authuser=0"
+              },
+              {
+                "type": "text",
+                "content": "步驟四： 編輯個人資料"
+              },
+              {
+                "type": "image",
+                "content": "https://lh3.googleusercontent.com/pw/AP1GczNe9uqm3KdjNr5Gzou1MJ-9tooI84BLjuHhnWDilXYmjCBFzuSLHXZmPb3kWEZoFlSa-Y7pl8He5bDjQtDTF8QtTUU0-DQwEb5KUQn2rEG_PwUaCoQEw9yoRwz0irdySbktyP41Hnq4fFdFhvZbw-PZ=w1855-h911-s-no-gm?authuser=0"
+              },
+              {
+                "type": "text",
+                "content": "步驟五： 網頁編輯編輯器"
+              },
+              {
+                "type": "image",
+                "content": "https://lh3.googleusercontent.com/pw/AP1GczP4bWI-HsH5SF0UvOonTqTxewvCBA76onqRU34ZEzvHYuoNC87ySy2yabLp7mq8Rd4HDFO_AxyGSe_YpTqAZ-NAE50Gm0mDI8LEwkz03sQBXFhDVulfoABWbaNFJVkWX1A8a2gdM30Io4iArdx13lba=w1857-h911-s-no-gm?authuser=0"
+              },
+              {
+                "type": "text",
+                "content": "步驟六： 學到更多LEARN MORE\n\n進入安裝驅動程式\n\nArduino 網頁驅動連結：[ https://create.arduino.cc/getting-started/plugin/welcome ]"
+              },
+              {
+                "type": "image",
+                "content": "https://lh3.googleusercontent.com/pw/AP1GczOhlTCHRDppa-91Ma_TsuBpanCunVLD7d3Dkdoz0QgWIF3qTjCdCJpHwk53zwMcMSEfH76JN-J_uTo5E_fgNBkWyUo4w4QegvyXSUECEt7GhRpbxB7eqyrzz9ylhKAmL3Xi__3CWkKDKHUOP4MQmhBI=w1849-h911-s-no-gm?authuser=0"
+              },
+              {
+                "type": "text",
+                "content": "步驟七：下載\n\n選擇下載位元 (如: 32位元 及 64位元)\n查看電腦位元：[ 本機 > 右鍵 > 內容 > 系統類型 ]"
+              },
+              {
+                "type": "image",
+                "content": "https://lh3.googleusercontent.com/pw/AP1GczMFJud5RULF8RtFlfwVvmSGzVZoLzNCVlWX7vNmz9pTAVnAEUY27ElvuY1u_je1M6_qWbyDtg8W_5q2zY2hq1CNi_eszio20-3qJgwUHOTmpvVbWA2Tip1VneLjSLV6B8o9SiJK-guz1iEUgBfG-ZFC=w942-h592-s-no-gm?authuser=0"
+              },
+              {
+                "type": "text",
+                "content": "步驟八： 下一步"
+              },
+              {
+                "type": "image",
+                "content": "https://lh3.googleusercontent.com/pw/AP1GczPOTkzOBY1Ung3UUjdkMPupqlWbpbqzTEhWVNzlNHBQIbVUN8gNvsOfqFmsV7zUVsfoecoP62SAZBg7w_zsQkjFZwcGtTCWdDMDX44t31m8V4Bv045pnQUveoUeIhgLbSDyh6POxFX9vFJ9CRlBwQxL=w610-h432-s-no-gm?authuser=0"
+              },
+              {
+                "type": "text",
+                "content": "步驟九： 確認"
+              },
+              {
+                "type": "image",
+                "content": "https://lh3.googleusercontent.com/pw/AP1GczPFSe0psWKrJHojKp7KexlS4w7Ww4_aG8nD7FdlG-52c_K1yOfFVMfGOHx1BKCXsE0S0OWsUIUuehNaZhJC2zgE-RhjUhoZipOm8dTRt5kG13fMwgefrDSnErRrGAuZ2_eKaptVXnHQCOij1OUuATR_=w488-h192-s-no-gm?authuser=0"
+              },
+              {
+                "type": "text",
+                "content": "步驟十： 完成"
+              },
+              {
+                "type": "image",
+                "content": "https://lh3.googleusercontent.com/pw/AP1GczNLQgvO1oJPXNz7DpUdSJaGbBAKL8Z2h_viSEcdJyFSY54QAa-QnsR0q7BL9JIAj9f6AGGAIUNao9JDnIqoxsFky0sOI-EDae0l6_DkbgwS_PXMjFPug6yO3RkkYGm6zdJxEBOwO2op9AgnztQbbrgM=w1657-h770-s-no-gm?authuser=0"
+              }
+            ],
+            "tags": [
+              "Arduino",
+              "Uno",
+              "Mega2560",
+              "下載",
+              "安裝"
+            ]
+          },
+          {
+            "title": "Ex03 - Arduino線上模擬器",
+            "id": "608310503",
+            "mode": "article",
+            "coverUrl": "https://lh3.googleusercontent.com/pw/AP1GczP9CVcGAfl7pZVT2COKv6p3c9b3PxE3CGiBIVh4op_CbzB7-lG16_LET-ZzrCJxLR7V1qgY-h5MsqNHqvkZaQpeelB-eSTF22VqcJfWqbrjcPMZJs87xE3PTgw2O7rNPA8XQCaDh8XbE59rrXAEpW9C=w1600-h900-s-no-gm?authuser=0",
+            "buttons": [
+              {
+                "title": "tinkercad 首頁連結",
+                "url": "https://www.tinkercad.com/"
+              }
+            ],
+            "access": "password",
+            "accessPassword": "ALO",
+            "blocks": [
+              {
+                "type": "video",
+                "content": "https://youtu.be/A11QUzplS0w?si=n5MTG-xA0y0BEYbd"
+              },
+              {
+                "type": "text",
+                "content": "甚麼是Arduino呢?\n\nArduino是一種小型主機板。\n這種開發板配有一組數字和類比I/0腳，可以連接各種擴充板或麵包版和其他電路。\n這些電路板具有串列埠，包括某些型號上的通用串列匯流排，也用於從個人電腦載入程式。\n軟體編程方面，通常使用C語言，官方提供了一個Arduino IDE用開發。"
+              },
+              {
+                "type": "text",
+                "content": "tinkercad官方首頁 \ntinkercad 首頁連結： [ https://www.tinkercad.com/ ]"
+              },
+              {
+                "type": "text",
+                "content": "步驟一： 登入/註冊\n如果大家是第一次使用 . 點選\"註冊\""
+              },
+              {
+                "type": "image",
+                "content": "https://lh3.googleusercontent.com/pw/AP1GczPasXuvVgZ4xLlRmxVkO5Hnk_ZAsex-6bTzOb8d4NbgcAEmSSBLcwZ_e2Tf6aOlbl2qi37yctiBrTBgLKLTAi2U9XBuT9V6-DFoJMzwUqqxkC1ODP5orcCmdeP6ISQWyKBhzRbqpUVbrKJ8E8Guuitp=w1847-h911-s-no-gm?authuser=0"
+              },
+              {
+                "type": "text",
+                "content": "步驟二： 建立 個人帳戶"
+              },
+              {
+                "type": "image",
+                "content": "https://lh3.googleusercontent.com/pw/AP1GczNymcvcdHw08l1RB0iokepVIZnWOxA0URTrSlI1iOTMT0hG6IEJYVLLrcQjFFOXTxj0Gek18wE3AyT6HXf0qC3ZGRS2TU-bsxS1RMIZThdbbEH0PVr3Eg_FUk4FzWYdsqFczdvbYzCdRlPljquU9Jeb=w1857-h911-s-no-gm?authuser=0"
+              },
+              {
+                "type": "text",
+                "content": "步驟三： 登入方式\n選擇登入註冊方式 (如:電子郵件 . Google . Apple...等方式) \n已Google帳戶為例。"
+              },
+              {
+                "type": "image",
+                "content": "https://lh3.googleusercontent.com/pw/AP1GczNB_FS4PN4-MGArig8ZLUNQIL4u6o4468dEfjqRHh-terwhtePUL0LTufC1VgsSa917YGEOZSE-eo5JZW24vt9ptjGpNGDUQaIfeZIKfxk9bOWID7c5XGdsWCIXpOfcyuEDQD2-ZBDCS7r1ir5AFSHo=w1859-h911-s-no-gm?authuser=0"
+              },
+              {
+                "type": "text",
+                "content": "步驟四： 選擇 \"電路\" 並 \"建立新電路\"\n選擇\"電路\" . 電路才能模擬Arduino uno 板"
+              },
+              {
+                "type": "image",
+                "content": "https://lh3.googleusercontent.com/pw/AP1GczM47dE3NWpQJ356O6laFydn8AAj0WY-PCe2q6SZDUD3pUvH1xSPoG0H_KEfGezVEw_G35l5IUagrCXhL5FApzdEDtmf5OGHxvT84VCYXU2oHST_zRtQYrp81uikp36mzzYyeKB33mdrh_XPIFJW12wL=w1859-h911-s-no-gm?authuser=0"
+              },
+              {
+                "type": "text",
+                "content": "步驟五： 拉出UNO"
+              },
+              {
+                "type": "image",
+                "content": "https://lh3.googleusercontent.com/pw/AP1GczPJWRlX3AW7X0MHEvwyX9gdzn2uB2EuA_Y74PyUpNpEdyCe3lMnG3GdLVGNDc8yUAZ4L5sQRQji-oa3fgGEK4M29b9PzAGXUeTbfebufOzUD3LLrY2v3RlZFNjtX_aOos7ZDPYSty9qudAgNMslNsYQ=w1851-h911-s-no-gm?authuser=0"
+              },
+              {
+                "type": "text",
+                "content": "步驟六：編輯\n\n可以選擇 圖塊 / 圖塊+文字 / 文字\n建議初學者使用圖塊+文字.可以拉圖塊熟悉文字呦"
+              },
+              {
+                "type": "image",
+                "content": "https://lh3.googleusercontent.com/pw/AP1GczMn5N1ZpivfGYLJmBdFt9dqPRY94L-W5XW3VH3uWUBrc7CrCNd5RMyAMMtOheobJKYbG_8r6cGfCVUhuZa24Lb4EN0dNxq1KR-Zgd1Vh0_9YXcbADzjfkacOB_L1J69gx2CibRpAY2o-2C53bFh2xER=w1855-h911-s-no-gm?authuser=0"
+              }
+            ],
+            "tags": [
+              "Arduino",
+              "Uno",
+              "下載",
+              "安裝"
+            ]
+          },
+          {
+            "title": "Ex04 - 安裝Arduino拉方塊",
+            "id": "608310504",
+            "mode": "article",
+            "coverUrl": "https://lh3.googleusercontent.com/pw/AP1GczNje_SEonNP_-04v9pcm_sMTa04Ro1oDVMNGqx7YrlYYcNUi-sj3RMXFVEvs5BjD8JGW5kWlrIoGxwNKbg5ApH0Iky5GC4iV-x2VZhGg7-O3jHWJDb2GDHNdb_3HUNppXvu-10I4qT32aAADUr2DPS0=w1600-h900-s-no-gm?authuser=0",
+            "buttons": [
+              {
+                "title": "Arduino IDE連結",
+                "url": "https://www.arduino.cc/en/software"
+              },
+              {
+                "title": "Arduino IDE舊版本連結",
+                "url": "https://www.arduino.cc/en/software/OldSoftwareReleases"
+              }
+            ],
+            "access": "password",
+            "accessPassword": "ALO",
+            "blocks": [
+              {
+                "type": "video",
+                "content": "https://youtu.be/oxy1sSzR2dk?si=OAgceCr2pMuIDk4D"
+              },
+              {
+                "type": "text",
+                "content": "甚麼是Arduino呢?\n\nArduino是一種小型主機板。\n這種開發板配有一組數字和類比I/0腳，可以連接各種擴充板或麵包版和其他電路。\n這些電路板具有串列埠，包括某些型號上的通用串列匯流排，也用於從個人電腦載入程式。\n軟體編程方面，通常使用C語言，官方提供了一個Arduino IDE用開發。"
+              },
+              {
+                "type": "text",
+                "content": "Arduino軟體下載\nArduino IDE連結： [ https://www.arduino.cc/en/software ]"
+              },
+              {
+                "type": "text",
+                "content": "步驟一： 軟件Software"
+              },
+              {
+                "type": "image",
+                "content": "https://lh3.googleusercontent.com/pw/AP1GczOYauCzoah4pOGHsg564Oa0I9Ag_sxWxyhf8bbkk6y6L0yNUdJYoT2VAoNDOKX3T2GX8GtjT80XJk7rOD1FdEqhEr9Y2m0ZEZsn9tfhPwAEIlzgdQcQG6a5GD1WQjQ5E4FmJja4Ezxrybx0mftyPzn2=w1847-h911-s-no-gm?authuser=0"
+              },
+              {
+                "type": "text",
+                "content": "步驟二： 尋找舊版本 ArduBlock拉方塊僅支援 IED1.6.6版本\nArduino IDE舊版本連結： [ https://www.arduino.cc/en/software/OldSoftwareReleases ]"
+              },
+              {
+                "type": "image",
+                "content": "https://lh3.googleusercontent.com/pw/AP1GczOVLaKloI8GgVhbeyP-5yDa1T5_OYg-cCzxP3dl8PIXYcMnlgL0qDiG9bRm3CsquCuT0S4eKEjRIYGQLJNWn4gzNs_7bAHu1by0Jfyd1H2Ky_N3o-spERfN2U-WZavQEwvWA5p9Zwh3ZKGZYQYyHcml=w1701-h863-s-no-gm?authuser=0"
+              },
+              {
+                "type": "text",
+                "content": "步驟三： 下載1.6.6版本"
+              },
+              {
+                "type": "image",
+                "content": "https://lh3.googleusercontent.com/pw/AP1GczNgZbXxuJVw4IbM_JIJRVS4KH4x-VDBy8TmVr3_aTTBCXih4Lb556JmTFSjSgc-FVbVeql5htesgX6oVD8rWZLhNeOBvYmMH7gO6CV-AVUrhvuuEhtA2RYcbz2A0FPlJD4KkwFRW9D3PRc3J3YcP5Qx=w1838-h911-s-no-gm?authuser=0"
+              },
+              {
+                "type": "text",
+                "content": "步驟四： 安裝軟體\n一直下一步即可 . 路徑要記住"
+              },
+              {
+                "type": "image",
+                "content": "https://lh3.googleusercontent.com/pw/AP1GczNlw-XY2Hdxolam936vN_CHRLh6ZOSeNqW3RtzMk8Hbv1PHryt8BTHkfswsLII-nX9AGERUINY9hjo1XeyQYvk-571I-rsGm3wx5ICqPtD-yt3p9ZLLY33zHERFvwMEWWQJuMq4A-IJ8azK2xuMlsCr=w501-h347-s-no-gm?authuser=0"
+              },
+              {
+                "type": "text",
+                "content": "步驟五： 下載ArduBlock ZIP檔案包\n建議使用ZIP方式下載"
+              },
+              {
+                "type": "image",
+                "content": "https://lh3.googleusercontent.com/pw/AP1GczMCkGF09ZplFA6SxZ07fc7nyFHrinebykHyD2zTx2ClyZFv7B4CQhZ3EX5CmgNMoXC0WbNzRv1lGD9SnyvjR2BFmeoMnziKdWwTpThK6IyLIPB7Rbue4ZZ8MVVZBkXWrYNLQ07Kg2VIwh46evj-Ck0o=w1472-h802-s-no-gm?authuser=0"
+              },
+              {
+                "type": "text",
+                "content": "步驟六：解壓縮"
+              },
+              {
+                "type": "image",
+                "content": "https://lh3.googleusercontent.com/pw/AP1GczPUuFlJ7XxpcYEAnOZoHMiBdSH5ZkywYTwH0Bm0dSmgYc6qlKZ6jjQBmPQxe--84DoL6PGZXTQA0PANu683lxaJOwGRGKvvW0pNrwiY5ZO1lQosECCJR2ydGxFBE4kR7w9uNEU2RuIrHWjFNEh2sKc4=w751-h572-s-no-gm?authuser=0"
+              },
+              {
+                "type": "text",
+                "content": "步驟七： ArduBlockTool 貼上\nArduino安裝位置 > tools > 貼上"
+              },
+              {
+                "type": "image",
+                "content": "https://lh3.googleusercontent.com/pw/AP1GczMlHjHAGt1QsBoxNaSZziUG3xH-c2HM_8_sjRUKlzaOUsHJsgCIw7p5u88oA9j8lY5qPReXuVCRO21sURSm99ZU4WGvQ5QD4oqddvrH7PetmhE5VUmvQraGumXpTzL_J1chb-3YfcG70cJ_mzdE1uMn=w1112-h413-s-no-gm?authuser=0"
+              },
+              {
+                "type": "text",
+                "content": "步驟八： 開啟Arduino1.6.6\n工具 > ArduBlock"
+              },
+              {
+                "type": "image",
+                "content": "https://lh3.googleusercontent.com/pw/AP1GczPvqbmJUf9x4kZv1L8DhjupKIt93IbQpudU-5A33Oa6ygYC4lYSnakqwl2XjqXZ7nTgMEV6Fwb1Cup9fXR1VB514LDmNr41ibbheGfIT40cKIg_QsKy2jr202_yuPsXQULQy20lBq8kDmo-R1A8y75m=w678-h722-s-no-gm?authuser=0"
+              },
+              {
+                "type": "image",
+                "content": "https://lh3.googleusercontent.com/pw/AP1GczObZy-hTj7qpoAHqAvJVyelj_gtZaflwMEcGkAM8CXRjBw024hl3Hmq4ZLTiADMZHMSvV481kz4IQHgxujG7belOg6NWVXtfNtLE9If8r0_9aWpaUQjZFRiMaorVCKSpEJIfwpFaZY6KVac2RxTkhbO=w1007-h752-s-no-gm?authuser=0"
+              }
+            ],
+            "tags": [
+              "Arduino",
+              "Uno",
+              "Mega2560",
+              "下載",
+              "安裝",
+              "拉方塊"
+            ]
+          },
+          {
+            "title": "Ex05 - Arduino介紹與CH340驅動",
+            "id": "608310505",
+            "mode": "article",
+            "coverUrl": "https://lh3.googleusercontent.com/pw/AP1GczNNykuHgG0HhPJZ68Fc75p6XmwAVyOEF5uko8oi7UhojdFxzjAnArop4RqMZ6zt23kC_xMbmnGfGPrz0KHA9_70iVVL9dZin0QgCKs41InFEwXEVw1Ho82iBH0PgmKPt7xjbmihjDvsPiKHfoYKanDG=w1600-h900-s-no-gm?authuser=0",
+            "access": "password",
+            "accessPassword": "ALO",
+            "blocks": [
+              {
+                "type": "video",
+                "content": "https://youtu.be/-q7iRiqWaDk?si=xs8U1-bqyVkgOjKd"
+              },
+              {
+                "type": "text",
+                "content": "認識Arduino UNO R3 開發版\n\n建議: 破解者推薦買ATmega328P IC可拔除的類"
+              },
+              {
+                "type": "image",
+                "content": "https://lh3.googleusercontent.com/pw/AP1GczPlhflX00pUyVnQU_iEcME794GaQgbwCg6Tzak4xa0lUTumLwhF4Uryfc5l4z61Fjd7mw-qbAEYkszVqNAXLjHUoZ0VHpwURN4aJqcf9BQv_rWfCDqILL_xm6xChPd-MiktsliGaYIx5UVEfwjA6mdD=w800-h450-s-no-gm?authuser=0"
+              },
+              {
+                "type": "text",
+                "content": "常見開發板\n\n建議: 如果需要大量腳位控制.建議購買Arduino MEGA 2560 開發版"
+              },
+              {
+                "type": "image",
+                "content": "https://lh3.googleusercontent.com/pw/AP1GczN92Osgc54p4Sdlprk4Ba-xeI-P5JKYeJupkVwBLeiuOCM0_EJUkAPfQ8Qj2ZaTbD_hXjrCMPT4NbWLWNmsh3WNpFS_E9YHogs9HC8eOgC9kFom34ja2VQEaLQh0qESkW8TrzmE9sQtK_uMDeTWW4ih=w800-h450-s-no-gm?authuser=0"
+              },
+              {
+                "type": "text",
+                "content": "擴充板\n\n建議: 如果零件屬於模組.再購買"
+              },
+              {
+                "type": "image",
+                "content": "https://lh3.googleusercontent.com/pw/AP1GczPbcgj_mIDk8ya7_ab0iUtByBVkM10ZDuq8TWYxTgfyaZm_nVSEe_x8lqsuo_itXKcsWK-dPbjYwsS432k1O-L-gcY_PvAW3AoGL70v5hYTXALdghtY1cSxdCH4ossyriEYvVG8Ce6RF9xbFuaVVv9F=w800-h450-s-no-gm?authuser=0"
+              },
+              {
+                "type": "image",
+                "content": "https://lh3.googleusercontent.com/pw/AP1GczOUNVgJZfvcWNSKGrFfjpWGIWPLvt82-FbIA0cB6fWPmTO3fYnloqF7PGNsW2wDYaqNAhWd44EQ4x0666_XW0EEsl3YevR-0dyHZlUwedPSAcJuWzTNzulkLLtG4vWVZhpQLePVm-LY7UuQ4b_kmmqs=w800-h450-s-no-gm?authuser=0"
+              },
+              {
+                "type": "text",
+                "content": "安裝CH340驅動程式\n\n如圖片中有這IC.需安裝"
+              },
+              {
+                "type": "image",
+                "content": "https://lh3.googleusercontent.com/pw/AP1GczPIDXEm0YwmMfxjbBNxRK5-4-Xd-UB1-TMswZvJbmfU3lbFS8Pb09xPYQeWr8mHre6b5rQHiFtD1fbYYNW2GSSt5fmEYieWtzPO-nysipBnoRW0YTRflSAfZ883SXuFD4zgtJJgHyyHUMF38NIwDTMz=w800-h450-s-no-gm?authuser=0"
+              },
+              {
+                "type": "text",
+                "content": "< 方法一 >\n步驟1-1： 進入MEGA雲端下載"
+              },
+              {
+                "type": "image",
+                "content": "https://lh3.googleusercontent.com/pw/AP1GczMy5BiYrxTSnoXLJ9o35rd3s-5E-4j4u8s22rxKziuZJY8lB7NA-6aSDnVpcu7WD2a0p7enZqYg6uPznhFytApcwW1oyDyfW9l52G9U880NzHW3h-kaAqczt-iy3ZMI7fCOWJUHwPeTkZigttyWyu54=w1741-h860-s-no-gm?authuser=0"
+              },
+              {
+                "type": "text",
+                "content": "步驟1-2： 下載位置"
+              },
+              {
+                "type": "image",
+                "content": "https://lh3.googleusercontent.com/pw/AP1GczOz-K9Gl6ayO1NR7Du6BmR3dY6-a7weukivqzKr6nSFY-OYgmlCcVoQvrUghScDH_sMGX_u96MD2aYIaXO7VNARbWa-KukA4RG5kf9PW0Vu3LykTL_RazC40PU_0H4tgGqIsj5ad0UEOBP_d07QNpEk=w943-h601-s-no-gm?authuser=0"
+              },
+              {
+                "type": "text",
+                "content": "步驟1-3： 點 INSTALL (安裝)"
+              },
+              {
+                "type": "image",
+                "content": "https://lh3.googleusercontent.com/pw/AP1GczPFJeWOuGYJse7gwkFHsesF2B3wUhdWRxOsWuiNJiSJ2gTCgVvZVt4MfAqi4DxZXjHOh8DGDtq00dlTsgAFfarfuKWsw1kJYAjHfP-TZ86NwHpBjUMEctU6gqncz7YCIB8l6NISR7JHGp01vSShKWan=w520-h340-s-no-gm?authuser=0"
+              },
+              {
+                "type": "text",
+                "content": "< 方法二 >\n步驟2-1： 進入 裝置管理員"
+              },
+              {
+                "type": "image",
+                "content": "https://lh3.googleusercontent.com/pw/AP1GczPO-QzI9DDV1jPaaapY05xHPMthxA8EsgEpsel0oHdpopdBNh0ut2mFSLAnV-5LImXNqtG-FtVDUlbP8MC5Y7T9zdmMMo4bTnmyWRhXOmxxgZeUDzxAw7YmFqiGV6J0C3ZEjHFmbaOva2mKjHmsygJH=w1231-h885-s-no-gm?authuser=0"
+              },
+              {
+                "type": "text",
+                "content": "步驟2-2： 序列阜\n[裝置管理員] > [連接阜(COOM和LPT)] > [USB(未知或顯示驚嘆號)] > [右鍵] > [內容]"
+              },
+              {
+                "type": "image",
+                "content": "https://lh3.googleusercontent.com/pw/AP1GczN9MLZODlfIUOVhsuPeExD9bIa4VkUDVJ1u7ovqcK-JyCJjrkaEiX7Eb50lK9UNkeqW6DHuyaRjC-_bTJDAQjBeGyQXhgAxdDUQdRzcVpC31byXUny9mCH57qAb5eeE1E_YkE77fqDxRsKrbBLyrJ50=w1231-h885-s-no-gm?authuser=0"
+              },
+              {
+                "type": "text",
+                "content": "步驟2-3： 手動更新驅動程式\n[驅動程式] > [更新驅動程式]"
+              },
+              {
+                "type": "image",
+                "content": "https://lh3.googleusercontent.com/pw/AP1GczM4333_LPnz8xUxEvtf9ua4ZVjzdOvoEcYG32JsQjDXSjG_sjb3H_UpTxZtSiuBQBsU3VxftmBB6e6PiSQjgDwTJ2SIgfrEkPKeXgL2ef13xeTlmPssHHyqsFdFOwVi41T9YEsTquZNBvIcGSDQZbv9=w591-h646-s-no-gm?authuser=0"
+              },
+              {
+                "type": "text",
+                "content": "步驟2-4： 瀏覽電腦上的驅動程式"
+              },
+              {
+                "type": "image",
+                "content": "https://lh3.googleusercontent.com/pw/AP1GczMza8w2O1cdDJxKI9AgsIhl4-i6sn6eDDBKMjL7NMuAoa0IT_3Wno6pNHERMuz4d8VPkbDKMyeecY_JNPUwWyv5FySn9Lv6z09m-Ol34N1vhQmD26n1MpEu0H3Z8hQ4peHA_i2FD4bqRhHkQKjNwysu=w768-h567-s-no-gm?authuser=0"
+              },
+              {
+                "type": "text",
+                "content": "步驟2-5： 瀏覽 Arduino\\Drivers\n預設位置: C:\\Program Files(x86)\\arduino\\drivers"
+              },
+              {
+                "type": "image",
+                "content": "https://lh3.googleusercontent.com/pw/AP1GczN2Aer1LkQF88GqPquRgXVQ0Lj65MQnTmI_XdUKDYNRhBeGDXYNqYgM52KrBZAv1ctXdIymt_QXQrYbs1hM_NKLkpNRWdoQ-JRunSZl0PxLO1J3Bxrrc1QCkIczPqsLYP28OfdNc9ZPIzb1dOshh3wG=w768-h567-s-no-gm?authuser=0"
+              },
+              {
+                "type": "text",
+                "content": "Arduino IDE介面說明"
+              },
+              {
+                "type": "image",
+                "content": "https://lh3.googleusercontent.com/pw/AP1GczOa14G5veWsARBuhtQAnCmC9cjfjXMokFxs-wr36-rBX0AcaFdKitPUtfsLOvfsC4b1mUaWxbBiaH_eN03sm_tDgxI5B6TWIfg0kTsv6G1xaLUD7hDRHa0nDVcWY9clT0sq_BVmOxmM0X2dMwyfo0bP=w477-h92-s-no-gm?authuser=0"
+              },
+              {
+                "type": "text",
+                "content": "編譯程式(Verify): 檢查程式是否有問題\n上傳程式(Upload): 把編寫好程式上傳至開發版中\n新增檔案: 開啟新的編輯頁\n開啟檔案: 開啟以儲存的程式碼(.ino)\n儲存檔案: 程式碼儲存為ino\n序列阜視窗: 顯示開發版回傳的資訊"
+              },
+              {
+                "type": "text",
+                "content": "程式構造"
+              },
+              {
+                "type": "code",
+                "content": "/* 註解區 * 說明這程式碼用途*/\n//--------標頭檔區---------#include<ALO.h>\n//---------宣告區--------- \nbyte a; ...\n\n//-----設定區(IO初始化)-----\nvoid setup() {\n  pinMode(13,OUTPUT); ...\n}\n\n//--------重複執行區--------\nvoid loop() {\n  ...\n}\n\n//---------副程式區---------\nvoid Displat() {\n  int LED; ...\n}\n\n//----------函數區----------  \nif (I>J) r=I; else r=J;\n ...\n}"
+              }
+            ],
+            "tags": [
+              "Arduino",
+              "Uno",
+              "Mega2560",
+              "下載",
+              "安裝"
+            ]
+          },
+          {
+            "title": "Ex06 - 外傳 ICO資料夾",
+            "id": "608310506",
+            "mode": "article",
+            "coverUrl": "https://lh3.googleusercontent.com/pw/AP1GczMszX2siBepCQCbKotTq3F6uchGLoUV3Rm6O40js8D7pDibOzSZa2h57y1ZLb2eRqlv1uKDTI2yNMrVKvZZoum9jQ3tj-fnk1pjBpiV4CzTc5kUAdiifN4a8QwnjQk-saJBIhIOSZRkdJJ1E2BEtug-=w1600-h900-s-no-gm?authuser=0",
+            "buttons": [
+              {
+                "title": "PNG轉ICO - 在線轉換圖標文件",
+                "url": "https://www.aconvert.com/tw/icon/png-to-ico/"
+              }
+            ],
+            "access": "password",
+            "accessPassword": "ALO",
+            "blocks": [
+              {
+                "type": "video",
+                "content": "https://youtu.be/CxffRKk4ncg?si=bLIPe0HrVV_TiXFF"
+              },
+              {
+                "type": "text",
+                "content": "變更資料夾圖示\n\n如下圖所示"
+              },
+              {
+                "type": "image",
+                "content": "https://lh3.googleusercontent.com/pw/AP1GczMyKIQppBSgJ6QVgI6AP_BvrwJNAKODM8eyltbYjbPZJaAEFYU1GMS9rGcIDNoQzAhtEKbtNOqeNHuOiba3Lf6XAv-IOeWf4l4o4hYBK3Pw2MfeAGx63j8VBoBUkOW_1WBFyrn9W6a5X4-eyUCkBSbi=w110-h365-s-no-gm?authuser=0"
+              },
+              {
+                "type": "text",
+                "content": "要把資料夾變更成Arduino圖示"
+              },
+              {
+                "type": "text",
+                "content": "步驟1： 網頁搜尋圖示\n圖片可以使用自己的呦~"
+              },
+              {
+                "type": "image",
+                "content": "https://lh3.googleusercontent.com/pw/AP1GczPwCkSuJwuQxFrr-bhP6mISATeRa5iN0wcbN7Ayr9sbIUZsj1yoN0_LGKdWffXn8ALdGDX03ZiZ36PXjN8v-nisD-EmSbhZVf7hnj0cm9735icvHiNyypWLJPJcoLFeZ2j7GLuIisTNbh-Bzkn6_UNY=w1581-h831-s-no-gm?authuser=0"
+              },
+              {
+                "type": "text",
+                "content": "步驟2： 另存圖片\n找到自己要的圖片後.把他下載下來\n注意下載圖片是否有版權!"
+              },
+              {
+                "type": "image",
+                "content": "https://lh3.googleusercontent.com/pw/AP1GczP4OOo17D2LKKuK2F4M9f2i-aezh_VgIFufJHKVDY8TZNxzFAWzp2sjQmNLKU-ZKifsJneQPKPW1sV-j1m0TWC8amSevg8lbXnSpspR0oHprbmaTNP12zVucLJJK9OOvg9w9kr6ussxbBVt4H0x6yxW=w942-h591-s-no-gm?authuser=0"
+              },
+              {
+                "type": "text",
+                "content": "步驟4： 進入 \"PNG轉ICO - 在線轉換圖標文件\"\n網站連結: [ https://www.aconvert.com/tw/icon/png-to-ico/ ]"
+              },
+              {
+                "type": "image",
+                "content": "https://lh3.googleusercontent.com/pw/AP1GczMGvxhaUoDioQVQWzk3vd1IIx0pc279qYkTNOGrskyIT_kSn1VuGWqGOx_u0BEFzUQQzL0_eFvUXz9sLcZ75BxeaYje5rfG8SQWFWBqrUTvrpEL212VHY6LgbXYR5FBL8guJjfdpgPqp3kBS6OnoLFu=w1582-h900-s-no-gm?authuser=0"
+              },
+              {
+                "type": "text",
+                "content": "步驟5： 點擊 \"選擇檔案\" 及 \"圖標尺寸\"\n圖標尺寸選擇越大.解度度越高"
+              },
+              {
+                "type": "image",
+                "content": "https://lh3.googleusercontent.com/pw/AP1GczOkkDW2tWGk1WtbV7La08LhvhPSelQt3gZj82DaBGj-KFox9wPOeiat6xENlyrqb_vJ156WsWg7GRTV8-lF18Urj6l-C_3RWmiG7fxFoSx1VFIdARxTOgWXoa6mfP8B8UptXu3r7S4GPR9iaqUzNwYu=w1207-h716-s-no-gm?authuser=0"
+              },
+              {
+                "type": "text",
+                "content": "步驟6： 選擇檔案"
+              },
+              {
+                "type": "image",
+                "content": "https://lh3.googleusercontent.com/pw/AP1GczME6fGgudT868hl2ivaWYd3p1OrtbWTU0FDppgzp9H4JwSuvSej109Z7V4lAy1J2S6KE_dDJEb-EYjeUZbxH2zx0nRPO4UN_i8-LLWWgD1gCmzIPtock7ZxvjCF6gQsg-tnN_qFHVLHXn7QHAUgF6sy=w942-h591-s-no-gm?authuser=0"
+              },
+              {
+                "type": "text",
+                "content": "步驟7： 點 \"開始轉換\"\n注意: 確認選擇檔案是否正確 並 檢查圖標尺寸"
+              },
+              {
+                "type": "image",
+                "content": "https://lh3.googleusercontent.com/pw/AP1GczMs-O4XV8CfTPHhWvuLg06fGkAQs3LU4GtfThM7pabPfxuXbd-ffTxfACmAW31lQzg1PioRExb4x2DmP0cWe5rSpq0r9MBUv-Fg7Lq_w0AmCv4OAN9NTERod60q_9cN_-dYaM6409RVqK50puOGeMg5=w1106-h713-s-no-gm?authuser=0"
+              },
+              {
+                "type": "text",
+                "content": "步驟8： 進入下載頁\n往下滑.點擊檔案下載"
+              },
+              {
+                "type": "image",
+                "content": "https://lh3.googleusercontent.com/pw/AP1GczOU7yFc3ExySuIAhCr0cKbnKtWBy29OX1IebwaMkGQzmQ5PA2AM2eQzwAXMdQ0fQ7Z31_kWQgPvDThWxITklvjFF3bTQ2aVFa2cliXI3459IDm9DgzYmjusnu5xDqrPXzGj1v-VnsLZ1odA7XGOI8Vw=w1217-h870-s-no-gm?authuser=0"
+              },
+              {
+                "type": "text",
+                "content": "步驟9： 下載\n右鍵 > 另存新檔"
+              },
+              {
+                "type": "image",
+                "content": "https://lh3.googleusercontent.com/pw/AP1GczOUUpR8KG1PPCoh_FwCcWUIn2IzuD_7hq438YybKSWr1GJYu4j8gxsfwW5I8GYmZi2t_7jbENOR8S3iC5B-awlorhJqwnIcXUJQ4VkKdQKUnrNXPJarLkaT2dwCiQE2uTUIkhWu5RitGHfNKFngJA8o=w1148-h736-s-no-gm?authuser=0"
+              },
+              {
+                "type": "text",
+                "content": "步驟10： 儲存位置\n電腦隨機找位置.把剛下載的存放好"
+              },
+              {
+                "type": "image",
+                "content": "https://lh3.googleusercontent.com/pw/AP1GczM4pPR3TmsatjkVkGCk3v5FHYZOmKiJjE8nTiYoXJ_uxVFkrypXV1-l7wJBsEZMX8nv1HciVM4KufbHhORkKKVVAFvMnUI8IKu5QLoAsNIAhDhGxGErP3eF4qbCevYFuD5xef92yF5sXYMv_ooeMHRa=w1087-h627-s-no-gm?authuser=0"
+              },
+              {
+                "type": "text",
+                "content": "步驟11： 內容\n資料夾 右鍵 > 內容"
+              },
+              {
+                "type": "image",
+                "content": "https://lh3.googleusercontent.com/pw/AP1GczNwvixdx48RULhZcxgIKuRDFUBHL0_j-AQWbRs0VpGOWuF6yG_N-KQowSUt0Drwg53jAkhGn368axEGc-ceHMuFjVbfUEXijnsB-8isM7TE77smhImlX6k2rXZyOGau3H56WlzqcP_VfgEmtTeTzxkD=w560-h551-s-no-gm?authuser=0"
+              },
+              {
+                "type": "text",
+                "content": "步驟12： 資料夾設\n置點 自訂 > 變更圖示(I)"
+              },
+              {
+                "type": "image",
+                "content": "https://lh3.googleusercontent.com/pw/AP1GczMd9wTOZ5YD1b6OqCyi5ZePaYZ9ahRjwq6Ce-1C1q7mnPYHQIp2KyQAIxA_6648TeHOZLf9Ziye-N_MNofGiAYzR5Hy-hDaDu5odMq7JWuUJ8sjnxleWmhphYrSwGadnDaaqNePSPGj2wB_Y7BvB0fp=w542-h695-s-no-gm?authuser=0"
+              },
+              {
+                "type": "text",
+                "content": "步驟13： 尋找入徑\n尋找存放位置 (步驟10)"
+              },
+              {
+                "type": "image",
+                "content": "https://lh3.googleusercontent.com/pw/AP1GczP0vw5FPBOS_zun-VKv7eU1RQovsJ9BCDqXqG4BRUv7WfQOQUBVPgk7ZEWti4jKtbX5ajcB2htcDlZFahgTeufUJaDnLbqAhGPnuslw5SwqCSSZ6uWKy8KVBL6M02xKHDbScVMo8vS-cMu1RP5eSNve=w436-h515-s-no-gm?authuser=0"
+              },
+              {
+                "type": "text",
+                "content": "步驟14： 開啟"
+              },
+              {
+                "type": "image",
+                "content": "https://lh3.googleusercontent.com/pw/AP1GczMFy7J4UgH24aSLPVphSzvkgaOcidr1wjcvYnWMDtqIiwdzKltBsIwPAB0ZUes3rP8ROp5Tk9aJUubd3G9KHgmnNZ4Fr6s6IxcmSKXZxHZM6JCVxeJjrB22G6bOL6U8-umYn9XF1Z2hGGGl91yhO2Hk=w942-h591-s-no-gm?authuser=0"
+              },
+              {
+                "type": "text",
+                "content": "步驟15： 確定"
+              },
+              {
+                "type": "image",
+                "content": "https://lh3.googleusercontent.com/pw/AP1GczNAGWYlnobKGYr-Ha9s6KTEHUbSzsD8WAVYObMn9AZGx1MNeRAXk0jbScFbbgiSrkLLggpPXJrbGGFankYNDzIc4tWrQfOoHfSUx7bGO7vn1yyk5kfIMmbLTe3zHMJCjzI-Oz1a7dSO2LZ6brFtw-27=w436-h515-s-no-gm?authuser=0"
+              },
+              {
+                "type": "text",
+                "content": "步驟16： 套用 並 確定"
+              },
+              {
+                "type": "image",
+                "content": "https://lh3.googleusercontent.com/pw/AP1GczMLOmvQAKfrJgj9Mv3Tf6PFIrTqa3qi46l0_Jda1o4yf-ynoMJKzJl_7OnLoiagHdY9ibD9J6GXhEYu_Kr0xFp1rCIuL5Xc_zPiGqACmbBVqxIji_-WzF2ZpbKg3-nW-3-KPQfsMCVZFvK1H80esnU8=w542-h695-s-no-gm?authuser=0"
+              },
+              {
+                "type": "text",
+                "content": "步驟17： 成果"
+              },
+              {
+                "type": "image",
+                "content": "https://lh3.googleusercontent.com/pw/AP1GczOUs-HLczNIpkVUMu3IurYu65ahg3nFgjjOvUXWbx4HQiUaYA4cUD0JANZPIhzdTfFlxxviu7Vs21Ty-nXG3oa0sYB4pBz0bxmbo2d_u_K9t5u3NsBRPs51RUWzb-1Y_Io3ra4MG-F5Tlmtgzdy3KmV=w990-h622-s-no-gm?authuser=0"
+              }
+            ],
+            "tags": [
+              "Arduino"
+            ]
+          },
+          {
+            "title": "Ex07 - LED閃爍",
+            "id": "608310507",
+            "mode": "article",
+            "coverUrl": "https://lh3.googleusercontent.com/pw/AP1GczPYKu6hFE21YlhgACOrvdfNL9Vo7WjKSCwbwmu_56UH78TT4CbrKPgiai-PGXvPneKAIcqAjfIAxGDzNogUEX3_0hrBlqryB-p1tawhd15z-FCwLxNNeiZH2qyYtt5B_34UC4vgAX0a_uUhVgaG5PpP=w1600-h900-s-no-gm?authuser=0",
+            "buttons": [
+              {
+                "title": "參考文件連結",
+                "url": "https://www.arduino.cc/reference/en/"
+              }
+            ],
+            "access": "password",
+            "accessPassword": "ALO",
+            "blocks": [
+              {
+                "type": "video",
+                "content": "https://youtu.be/oK6ZPL1e74Q?si=oabsWbpFlKDv-pQg"
+              },
+              {
+                "type": "text",
+                "content": "Arduino 基本指令介紹\npinMode( pin,mode )：數位I/O模式設定函式，指定一個pin腳位輸入或輸出。\n- 說明：\n   pin： pin腳編碼 0~13(UNO)、0~19(Leonardo) \n   mode：INPUT、OUTPUT、INPUT_PULLUP\n- 例如：pinMode( 13,OUTPUT ); //設定接腳13為輸出\n\ndigitalWrite( pin,value )：將HIGH或LOW寫到數位pin腳中。\n- 說明：\n   如果pin腳被設為OUTPUT輸出模式， \n   則digitalWrite( ) 的value寫入HIGH時，\n   pin腳會輸出5.0伏特電壓， 相反的，\n   給LOW時會輸出0伏特電壓(接地)\n- 例如：digitalWrite(13,HIGH); //讓13輸出高電位\n\ndelay( ms )：延遲一毫秒時間。\n- 說明：delay( 1 )為一毫秒\n- 例如：delay(1000); //為1秒"
+              },
+              {
+                "type": "text",
+                "content": "Arduino 語法庫\n[Arduino] > [說明] > [參考文件]\n參考文件連結： [ https://www.arduino.cc/reference/en/ ]"
+              },
+              {
+                "type": "image",
+                "content": "https://photos.fife.usercontent.google.com/pw/AP1GczNXaBS_fzdvK68ZJCcEmP-THpYIfZ3lz5Vn8dzwYzHkVnPwQN3966KW=w911-h892-s-no-gm?authuser=0"
+              },
+              {
+                "type": "text",
+                "content": "實作1： LED 閃爍1秒\n[檔案] > [範例] > [Basics] > [Blink]"
+              },
+              {
+                "type": "image",
+                "content": "https://photos.fife.usercontent.google.com/pw/AP1GczM6jT6ZtLvPyNLkoGgWyp5Z0fl8uOiQJ7mn6WXAD5HpkSqaKQk_jXbQ=w911-h892-s-no-gm?authuser=0"
+              },
+              {
+                "type": "code",
+                "content": "/*\n  Blink\n\n  反覆打開LED一秒鐘，然後關閉一秒鐘。\n\n  大多數Arduino都有一個可以控制的板載LED。在UNO、MEGA和ZERO上\n  它連接到數字引腳13，在引腳6上的MKR1000。LED_BUILTIN 設置為\n  正確的LED引腳與使用哪個板無關。\n  如果您想知道板載 LED 連接到 Arduino 上的哪個引腳\n  型號，請在以下位置查看您的電路板的技術規格：\n  https://www.arduino.cc/en/Main/Products\n\n  2014 年 5 月 8 日修改\n  斯科特·菲茨杰拉德\n  2016 年 9 月 2 日修改\n  阿圖羅·瓜達盧皮\n  2016 年 9 月 8 日修改\n  通過科爾比紐曼\n\n  此示例代碼位於公共領域。\n  https://www.arduino.cc/en/Tutorial/BuiltInExamples/Blink\n*/\n\n// 當您按下復位或給電路板供電時，設置功能運行一次\nvoid setup() {\n  // 將數字引腳 LED_BUILTIN 初始化為輸出。\n  pinMode(LED_BUILTIN, OUTPUT);\n}\n\n// 循環函數永遠一遍又一遍地運行\nvoid loop() {\n  digitalWrite(LED_BUILTIN, HIGH);   // 打開 LED（HIGH 是電壓電平）\n  delay(1000);                       // 等一下\n  digitalWrite(LED_BUILTIN, LOW);    // 通過使電壓低來關閉 LED\n  delay(1000);                       // 等一下\n}"
+              },
+              {
+                "type": "video",
+                "content": "https://youtu.be/uog2FnuzY_s?si=AaTlW5hRwN4aXVmf"
+              },
+              {
+                "type": "text",
+                "content": "上傳說明\n[工具] > [開發版] > 選擇[開發版]\n在選擇[序列附] > [COMXX](大於COM3即可)"
+              },
+              {
+                "type": "image",
+                "content": "https://photos.fife.usercontent.google.com/pw/AP1GczOpnLzbQsxQDfdr5Cn7JyavOXGtJcP_5cRkWCkhvLkQdd1eWqFwX5G7=w911-h892-s-no-gm?authuser=0"
+              },
+              {
+                "type": "image",
+                "content": "https://photos.fife.usercontent.google.com/pw/AP1GczMmNFgO6czfqNPBtU420q1n3N7SMeXey3_P2xIW4evRKSconUekNI_L=w911-h892-s-no-gm?authuser=0"
+              },
+              {
+                "type": "text",
+                "content": "實作2： LED 閃爍0.5秒"
+              },
+              {
+                "type": "code",
+                "content": "void setup() {\n  pinMode(13,OUTPUT);  //設定13的模式為OUTPUT(輸出)\n}\nvoid loop() {\n  digitalWrite(13,1);  //將D13腳設為HIGH=5V左右\n  delay(500);          //設定延遲時間，500=0.5秒\n  digitalWrite(13,0);  //將D13腳設為LOW=0V\n  delay(500);          //設定延遲時間，500=0.5秒\n}"
+              },
+              {
+                "type": "video",
+                "content": "https://youtu.be/lmNybVEoS7k?si=SaOq6gSdTeV_O_yb"
+              },
+              {
+                "type": "text",
+                "content": "實作3： LED 亮"
+              },
+              {
+                "type": "code",
+                "content": "void setup() {\n  pinMode(13,OUTPUT);  //設定13的模式為OUTPUT(輸出)\n}\nvoid loop() {\n  digitalWrite(13,1);  //將D13腳設為HIGH=5V左右\n}"
+              },
+              {
+                "type": "video",
+                "content": "https://youtu.be/3Irij9jgP_E?si=fKh6UbEK8Y7io3IW"
+              },
+              {
+                "type": "text",
+                "content": "實作4： LED 暗"
+              },
+              {
+                "type": "code",
+                "content": "void setup() {\n  pinMode(13,OUTPUT);  //設定13的模式為OUTPUT(輸出)\n}\nvoid loop() {\n  digitalWrite(13,0);  //將D13腳設為LOW=0V左右\n}"
+              },
+              {
+                "type": "video",
+                "content": "https://youtu.be/U4T2FDGxzJA?si=9WwX19d75T175VfP"
+              },
+              {
+                "type": "text",
+                "content": "練習題： 平交道燈號\n試試看使用pin12與pin13設計出平交道燈號"
+              },
+              {
+                "type": "video",
+                "content": "https://youtu.be/SjCBlZAAyRM?si=nRm8KFcTmPYhP22i"
+              }
+            ],
+            "tags": [
+              "Arduino",
+              "Uno",
+              "Mega2560",
+              "LED"
+            ]
+          },
+          {
+            "title": "Ex08 - LED同步",
+            "id": "608310508",
+            "mode": "article",
+            "coverUrl": "https://lh3.googleusercontent.com/pw/AP1GczOFfwjY3nLEcUyQubF7sXMU5P1m8Kv839q2sn-7-s2mh8Z6kQhDbKNqlpxc7tkxjTE5hGjdNaWEPtwdyjyqv1972IMM9isLH9NuZ9eXzCzOz4XrHyWRzkQVSRrFNwZFZK29a43K5b3jGmE2j50UPZvp=w1600-h900-s-no-gm?authuser=0",
+            "access": "password",
+            "accessPassword": "ALO",
+            "blocks": [
+              {
+                "type": "video",
+                "content": "https://youtu.be/KAY-zk2g0Rg?si=OwVQkIy9NDIMj8QS"
+              },
+              {
+                "type": "text",
+                "content": "Arduino 基本指令介紹\npinMode( pin,mode )：數位I/O模式設定函式，指定一個pin腳位輸入或輸出。\n- 說明：\n   pin： pin腳編碼 0~13(UNO)、0~19(Leonardo) \n   mode：INPUT、OUTPUT、INPUT_PULLUP\n- 例如：pinMode( 13,OUTPUT ); //設定接腳13為輸出\n\ndigitalWrite( pin,value )：將HIGH或LOW寫到數位pin腳中。\n- 說明：\n   如果pin腳被設為OUTPUT輸出模式， \n   則digitalWrite( ) 的value寫入HIGH時，\n   pin腳會輸出5.0伏特電壓， 相反的，\n   給LOW時會輸出0伏特電壓(接地)\n- 例如：digitalWrite(13,HIGH); //讓13輸出高電位\n\ndelay( ms )：延遲一毫秒時間。\n- 說明：delay( 1 )為一毫秒\n- 例如：delay(1000); //為1秒"
+              },
+              {
+                "type": "text",
+                "content": "本集電路接法"
+              },
+              {
+                "type": "image",
+                "content": "https://lh3.googleusercontent.com/pw/AP1GczOYsgKaykuUPDREqqt4HvvTz-X3Yf8TSZP7zoezhR5AZEZdc98soWJD7hFZENOwQ_tUyXOsQBy-UBMuvvowBg0-AgEMoBueeTUErzF7UMOzLSbsL_6DNaPPkAVbeqUr0CthowPScks4SK3hCSxVxZzX=w745-h450-s-no-gm?authuser=0"
+              },
+              {
+                "type": "text",
+                "content": "實作1： 2顆LED燈一起亮"
+              },
+              {
+                "type": "code",
+                "content": "void setup() {\n  pinMode(13,OUTPUT);  //設定13的模式為OUTPUT(輸出)\n  pinMode(12,OUTPUT);  //設定12的模式為OUTPUT(輸出)\n}\n\nvoid loop() {\n  digitalWrite(13,HIGH);  //將D13腳設為HIGH=5V左右\n  digitalWrite(12,HIGH);  //將D12腳設為HIGH=5V左右\n}"
+              },
+              {
+                "type": "video",
+                "content": "https://youtu.be/4prxXFjAF0E?si=Xj5958i1QDeJK1ac"
+              },
+              {
+                "type": "text",
+                "content": "實作2： 2顆LED燈一起閃爍"
+              },
+              {
+                "type": "code",
+                "content": "void setup() {\n  pinMode(13,OUTPUT);  //設定13的模式為OUTPUT(輸出)\n  pinMode(12,OUTPUT);  //設定12的模式為OUTPUT(輸出)\n}\n\nvoid loop() {\n  digitalWrite(13,HIGH);  //將D13腳設為HIGH=5V左右\n  digitalWrite(12,HIGH);  //將D12腳設為HIGH=5V左右\n  delay(1000);            //設定延遲時間1秒\n  digitalWrite(13,LOW);   //將D13腳設為LOW=0V左右\n  digitalWrite(12,LOW);   //將D12腳設為LOW=0V左右\n  delay(1000);            //設定延遲時間1秒\n}"
+              },
+              {
+                "type": "video",
+                "content": "https://youtu.be/kYxTzoA2TWY?si=BZb-OKKobqlQXah8"
+              },
+              {
+                "type": "text",
+                "content": "實作3： 平交道燈號"
+              },
+              {
+                "type": "code",
+                "content": "void setup() {\n  pinMode(13,OUTPUT);  //設定13的模式為OUTPUT(輸出)\n  pinMode(12,OUTPUT);  //設定12的模式為OUTPUT(輸出)\n}\n\nvoid loop() {\n  digitalWrite(13,HIGH);  //將D13腳設為HIGH=5V左右\n  digitalWrite(12,LOW);   //將D12腳設為LOW=0V左右\n  delay(500);             //設定延遲時間0.5秒\n  digitalWrite(13,LOW);   //將D13腳設為LOW=0V左右\n  digitalWrite(12,HIGH);  //將D12腳設為HIGH=5V左右\n  delay(500);             //設定延遲時間0.5秒\n}"
+              },
+              {
+                "type": "video",
+                "content": "https://youtu.be/Uo-sK20li2c?si=IVzKCCHw62RTEDBy"
+              },
+              {
+                "type": "text",
+                "content": "[錯誤寫法 -1] \n實作3：平交道燈號"
+              },
+              {
+                "type": "code",
+                "content": "void setup() {\n  pinMode(13,OUTPUT);  //設定13的模式為OUTPUT(輸出)\n  pinMode(12,OUTPUT);  //設定12的模式為OUTPUT(輸出)\n}\n\nvoid loop() {\n  digitalWrite(13,HIGH);  //將D13腳設為HIGH=5V左右\n  delay(500);             //設定延遲時間0.5秒\n  digitalWrite(13,LOW);   //將D13腳設為LOW=0V左右\n  delay(500);             //設定延遲時間0.5秒\n  digitalWrite(12,HIGH);  //將D12腳設為HIGH=5V左右\n  delay(500);             //設定延遲時間0.5秒\n  digitalWrite(12,LOW);   //將D12腳設為LOW=0V左右\n  delay(500);             //設定延遲時間0.5秒\n}"
+              },
+              {
+                "type": "video",
+                "content": "https://youtu.be/DpWaVmz8BgA?si=UE6C5sQKOOLkRqJR"
+              },
+              {
+                "type": "text",
+                "content": "[錯誤寫法-2]\n實作3：平交道燈號\n錯誤: 未加上LOW指令"
+              },
+              {
+                "type": "code",
+                "content": "void setup() {\n  pinMode(13,OUTPUT);  //設定13的模式為OUTPUT(輸出)\n  pinMode(12,OUTPUT);  //設定12的模式為OUTPUT(輸出)\n}\n\nvoid loop() {\n  digitalWrite(13,HIGH);  //將D13腳設為HIGH=5V左右\n  delay(500);             //設定延遲時間0.5秒\n  digitalWrite(12,HIGH);  //將D12腳設為HIGH=5V左右\n  delay(500);             //設定延遲時間0.5秒\n}"
+              },
+              {
+                "type": "video",
+                "content": "https://youtu.be/XxDxisGd4As?si=PmUNVCb-gssHI7VN"
+              },
+              {
+                "type": "text",
+                "content": "[錯誤寫法-3]\n實作3：平交道燈號\n錯誤: 最後加上LOW指令"
+              },
+              {
+                "type": "code",
+                "content": "void setup() {\n  pinMode(13,OUTPUT);  //設定13的模式為OUTPUT(輸出)\n  pinMode(12,OUTPUT);  //設定12的模式為OUTPUT(輸出)\n}\n\nvoid loop() {\n  digitalWrite(13,HIGH);  //將D13腳設為HIGH=5V左右\n  delay(500);             //設定延遲時間0.5秒\n  digitalWrite(12,HIGH);  //將D12腳設為HIGH=5V左右\n  delay(500);             //設定延遲時間0.5秒 \n  digitalWrite(13,LOW);   //將D13腳設為LOW=0V左右\n  digitalWrite(12,LOW);   //將D12腳設為LOW=0V左右\n  delay(500);             //設定延遲時間0.5秒\n}"
+              },
+              {
+                "type": "video",
+                "content": "https://youtu.be/F9Y05FnVtSM?si=eutezvcFvyIMyf0l"
+              },
+              {
+                "type": "video",
+                "content": "https://youtu.be/lOpJlptwa2M?si=Mn06kgGES1QgM_o9"
+              }
+            ],
+            "tags": [
+              "Arduino",
+              "Uno",
+              "Mega2560",
+              "LED"
+            ]
+          },
+          {
+            "title": "Ex09 - LED脈波PMW",
+            "id": "608310509",
+            "mode": "article",
+            "coverUrl": "https://lh3.googleusercontent.com/pw/AP1GczNg5CLFlx0Kx2yRb5u5utmMmPd4FlGIfKGH0R-SiyPdSJm9QH0qwMDDQi0Jk1edk-JaNbJc6ahPqBwrZWaC-XZoSh-T3c56XA4X8XZhNGkNuUcj5Sg8tVeukVhrPX3qq6KQcptjI28HXIP4dvmdTZXn=w1600-h900-s-no-gm?authuser=0",
+            "access": "password",
+            "accessPassword": "ALO",
+            "tags": [
+              "Arduino",
+              "Uno",
+              "Mega2560",
+              "LED",
+              "PWM"
+            ],
+            "blocks": [
+              {
+                "type": "video",
+                "content": "https://youtu.be/wVznn9goj7Q?si=5KjXKFOfhDGco3h8"
+              },
+              {
+                "type": "text",
+                "content": "電路接法"
+              },
+              {
+                "type": "image",
+                "content": "https://lh3.googleusercontent.com/pw/AP1GczOeFlE9VFUvetIJsITuUy4JzHk_9oL2ZWBV2EMjuJ68EAkWg3iejX1F2LzliKvlATzL7xMX1k9DzB5fLE_Mt-ekCAwGHzbPPAzpYF7c2ZNtiZYDSJMU-aJTmphkgiI_pEXPGhT3Y2nPlBleRbi673eY=w800-h450-s-no-gm?authuser=0"
+              },
+              {
+                "type": "text",
+                "content": "實作一： LED亮度100% (MAX255%)"
+              },
+              {
+                "type": "code",
+                "content": "void setup() {\n  // put your setup code here, to run once:\n  pinMode(11, OUTPUT);  // 數位D11讓他輸出模式\n}\n\nvoid loop() {\n  // put your main code here, to run repeatedly:\n  analogWrite(11, 100);  // 亮度100% (MAX 255)\n}"
+              },
+              {
+                "type": "video",
+                "content": "https://youtu.be/nLqmy0JujOE?si=B8S7pBtDDR9Ccqod"
+              },
+              {
+                "type": "text",
+                "content": "實作二： LED亮度30%"
+              },
+              {
+                "type": "code",
+                "content": "void setup() {\n  // put your setup code here, to run once:\n  pinMode(11, OUTPUT);  // 數位D11讓他輸出模式\n}\n\nvoid loop() {\n  // put your main code here, to run repeatedly:\n  analogWrite(11, 30);  // 亮度30% (MAX 255)\n}"
+              },
+              {
+                "type": "video",
+                "content": "https://youtu.be/Ga9LFP3ZHgQ?si=Q2eTUBnjCcKAZSgs"
+              },
+              {
+                "type": "text",
+                "content": "練習題： LED亮度0~255%"
+              },
+              {
+                "type": "code",
+                "content": "void setup() {\n  // put your setup code here, to run once:\n  pinMode(11, OUTPUT);  // 數位D11讓他輸出模式\n}\n\nvoid loop() {\n  // put your main code here, to run repeatedly:\n  analogWrite(11, 0);    // 亮度0% (MAX 255)\n  delay(300);\n  analogWrite(11, 50);   // 亮度50% (MAX 255)\n  delay(300);\n  analogWrite(11, 100);  // 亮度100% (MAX 255)\n  delay(300);\n  analogWrite(11, 150);  // 亮度150% (MAX 255)\n  delay(300);\n  analogWrite(11, 200);  // 亮度200% (MAX 255)\n  delay(300);\n  analogWrite(11, 250);  // 亮度250% (MAX 255)\n  delay(300);\n  analogWrite(11, 255);  // 亮度255% (MAX 255)\n  delay(300);\n}"
+              },
+              {
+                "type": "video",
+                "content": "https://youtu.be/NsU3Zal70MA?si=wLWzbiwox8tLD1xR"
+              }
+            ]
+          },
+          {
+            "title": "Ex10 - For++與--",
+            "id": "608310510",
+            "mode": "article",
+            "coverUrl": "https://lh3.googleusercontent.com/pw/AP1GczNwW67NSIQ6OKm2OoQ1Zc19NsfpMiDMgJHFOq0QTd3PMGM0I4zIUdjJHR9rygu56mcJsIz63S2sYwS2dN40NEIKh5W1FwobAa94Axdauac_fxIK-LgoMRyj90nul4ZHaGdjK22XPHjiwd9TVpGYebsL=w1600-h900-s-no-gm?authuser=0",
+            "access": "password",
+            "accessPassword": "ALO",
+            "blocks": [
+              {
+                "type": "video",
+                "content": "https://youtu.be/WMhMSmjYKaA?si=AyhZAUgWA9gGDEgV"
+              },
+              {
+                "type": "text",
+                "content": "實作一：LED全部一起亮"
+              },
+              {
+                "type": "code",
+                "content": "int LED;  // 整數 命名LED\n\nvoid setup() {\n  for (LED = 22; LED <= 37; LED++) {\n    pinMode(LED, OUTPUT);\n  }\n}\n\nvoid loop() {\n  for (LED = 22; LED <= 37; LED++) {  // 全部一起亮\n    digitalWrite(LED, 1);\n  }\n}"
+              },
+              {
+                "type": "video",
+                "content": "https://youtu.be/aFCn-uBYFPI?si=4o4G4GDlvhyvN4-u"
+              },
+              {
+                "type": "text",
+                "content": "實作二：LED左至右亮"
+              },
+              {
+                "type": "code",
+                "content": "int LED;  // 整數 命名LED\n\nvoid setup() {\n  for (LED = 22; LED <= 37; LED++) pinMode(LED, OUTPUT);\n}\n\nvoid loop() {\n  for (LED = 22; LED <= 37; LED++) {  // 左至右亮過去\n    digitalWrite(LED, 1);\n    delay(200);\n  }\n\n  for (LED = 22; LED <= 37; LED++) digitalWrite(LED, 0);  // 全部關閉\n}"
+              },
+              {
+                "type": "video",
+                "content": "https://youtu.be/ej4j-sFLwD4?si=AqbP4mP0QnvMeQQx"
+              },
+              {
+                "type": "text",
+                "content": "實作三：右至左亮"
+              },
+              {
+                "type": "code",
+                "content": "int LED;  // 整數 命名LED\n\nvoid setup() {\n  for (LED = 22; LED <= 37; LED++) pinMode(LED, OUTPUT);\n}\n\nvoid loop() {\n  for (LED = 37; LED >= 22; LED--) {  // 右至左亮過去\n    digitalWrite(LED, 1);\n    delay(200);\n  }\n\n  for (LED = 22; LED <= 37; LED++) digitalWrite(LED, 0);  // 全部關閉\n}"
+              },
+              {
+                "type": "video",
+                "content": "https://youtu.be/r_mz15I6ork?si=3I2QHJVWuUmj7oJI"
+              },
+              {
+                "type": "text",
+                "content": "實作四：LED左至右/右至左"
+              },
+              {
+                "type": "code",
+                "content": "int LED;  // 整數 命名LED\n\nvoid setup() {\n  for (LED = 22; LED <= 37; LED++) pinMode(LED, OUTPUT);\n}\n\nvoid loop() {\n  for (LED = 22; LED <= 37; LED++) {  // 左至右亮過去\n    digitalWrite(LED, 1);\n    delay(200);\n  }\n\n  for (LED = 22; LED <= 37; LED++) digitalWrite(LED, 0);  // 全部關閉\n\n  for (LED = 37; LED >= 22; LED--) {  // 右至左亮過去\n    digitalWrite(LED, 1);\n    delay(200);\n  }\n\n  for (LED = 22; LED <= 37; LED++) digitalWrite(LED, 0);  // 全部關閉\n}"
+              },
+              {
+                "type": "video",
+                "content": "https://youtu.be/9a_2D6tSpCU?si=J9Cto4_XBwPYx1Y-"
+              },
+              {
+                "type": "text",
+                "content": "練習題：LED漸漸變亮"
+              },
+              {
+                "type": "code",
+                "content": "int LED;  // 整數 命名LED\n\nvoid setup() {\n  pinMode(11, OUTPUT);\n}\n\nvoid loop() {\n  for (LED = 0; LED <= 255; LED++) {  // 漸漸變亮 從0%~255%\n    analogWrite(11, LED);\n    delay(20);\n  }\n}"
+              },
+              {
+                "type": "video",
+                "content": "https://youtu.be/T86J6xXU2Zw?si=BaD4AFFx-JaSz3S1"
+              }
+            ],
+            "tags": [
+              "Arduino",
+              "Uno",
+              "Mega2560",
+              "LED",
+              "For"
+            ]
+          },
+          {
+            "title": "Ex11 - 外傳 UNO隱藏數位腳位",
+            "id": "608310511",
+            "mode": "video",
+            "coverUrl": "https://lh3.googleusercontent.com/pw/AP1GczMEOVKv7EIcyGtNReIqYr9bn2bpIDu1wRp32hkGJhZWj67Zo_kqEODo3rDkv1X2bZ4c583_7Yqcpm7FO3F0bDbUnWAKmvbmjxNDQMf-wUH3_5Ok1am85hfv3Rf7s3T4kqlsTTCOFMxsUcstqrGYaXzN=w1600-h900-s-no-gm?authuser=0",
+            "access": "password",
+            "accessPassword": "ALO",
+            "videoUrl": "https://youtu.be/3aIk2EqeQ7U?si=jlVYUnYx1vjj9YbK",
+            "videoNote": "",
+            "tags": [
+              "Arduino",
+              "Uno",
+              "Mega2560"
+            ]
+          },
+          {
+            "title": "Ex12 - For基與偶",
+            "id": "608310512",
+            "mode": "article",
+            "coverUrl": "https://lh3.googleusercontent.com/pw/AP1GczPKVCakSbQwI2T30G0eZEGTcq56MMvB0r8l_t4BcCHN67lWVyV9mihcUO4b0Xnl6N2OFZD5_PkYOU6tYIUcRMT69uRwxxmTTNnVuHT-eS1kmpqXYy5Ev4ofOSPgNvhKT8d1xNDvoOJw8TAkfaYpSitg=w1600-h900-s-no-gm?authuser=0",
+            "access": "password",
+            "accessPassword": "ALO",
+            "blocks": [
+              {
+                "type": "text",
+                "content": "實作一：基數亮"
+              },
+              {
+                "type": "code",
+                "content": "int LED;  // 整數 命名LED\n\nvoid setup() {\n  for (LED = 22; LED <= 37; LED++) pinMode(LED, OUTPUT);  // 使用pin D22~D37腳位\n}\n\nvoid loop() {\n  for (LED = 22; LED <= 37; LED = LED + 2) {\n    digitalWrite(LED, 1);\n  }\n}"
+              },
+              {
+                "type": "video",
+                "content": "https://youtu.be/1cFVQaJvRp0?si=RZAXIk84azjBJf9j"
+              },
+              {
+                "type": "text",
+                "content": "實作二：偶數亮"
+              },
+              {
+                "type": "code",
+                "content": "int LED;  // 整數 命名LED\n\nvoid setup() {\n  for (LED = 22; LED <= 37; LED++) pinMode(LED, OUTPUT);  // 使用pin D22~D37腳位\n}\n\nvoid loop() {\n  for (LED = 21; LED <= 37; LED = LED + 2) {\n    digitalWrite(LED, 1);\n  }\n}"
+              },
+              {
+                "type": "video",
+                "content": "https://youtu.be/yc4qXuVfbKg?si=TOl2mRS6WhQ2mRPD"
+              },
+              {
+                "type": "text",
+                "content": "實作三：基數偶數輪流量"
+              },
+              {
+                "type": "code",
+                "content": "int LED;  // 整數 命名LED\n\nvoid setup() {\n  for (LED = 22; LED <= 37; LED++) pinMode(LED, OUTPUT);  // 使用pin D22~D37腳位\n}\n\nvoid loop() {\n  for (LED = 22; LED <= 37; LED = LED + 2) digitalWrite(LED, 1);\n  delay(1000);\n\n  for (LED = 22; LED <= 37; LED++) digitalWrite(LED, 0);\n\n  for (LED = 21; LED <= 37; LED = LED + 2) digitalWrite(LED, 1);\n  delay(1000);\n\n  for (LED = 22; LED <= 37; LED++) digitalWrite(LED, 0);\n}"
+              },
+              {
+                "type": "video",
+                "content": "https://youtu.be/eVS65FkPZEc?si=1XOrIMKFJvkq92DA"
+              },
+              {
+                "type": "text",
+                "content": "實作四：基數左至右/偶數右至左"
+              },
+              {
+                "type": "code",
+                "content": "int LED;  // 整數 命名LED\n\nvoid setup() {\n  for (LED = 22; LED <= 37; LED++) pinMode(LED, OUTPUT);  // 使用pin D22~D37腳位\n}\n\nvoid loop() {\n  for (LED = 37; LED >= 22; LED = LED - 2) {\n    digitalWrite(LED, 1);\n    delay(100);\n  }\n  delay(2000);\n\n  for (LED = 22; LED <= 37; LED++) digitalWrite(LED, 0);\n\n  for (LED = 38; LED >= 22; LED = LED - 2) {\n    digitalWrite(LED, 1);\n    delay(100);\n  }\n  delay(2000);\n\n  for (LED = 22; LED <= 37; LED++) digitalWrite(LED, 0);\n}"
+              },
+              {
+                "type": "video",
+                "content": "https://youtu.be/_dol4Jo8R4Q?si=veAy3QWtVxj_BVL5"
+              }
+            ],
+            "tags": [
+              "Arduino",
+              "Uno",
+              "Mega2560",
+              "LED",
+              "For"
+            ]
+          },
+          {
+            "title": "Ex13 - For重複與同步",
+            "id": "608310513",
+            "mode": "article",
+            "coverUrl": "https://lh3.googleusercontent.com/pw/AP1GczPUaHoz7dFpOM656kJNh7Wz779ORlu0HBzY_-PKq21RNcbEpQeicDjqa1451X3oqj_Uh9CPhnEk-INxEuVryk1JoDGMSgoEHy8-QHLDHHbFhe1cvNPrf9kOCWYyQV4TlgtlZsgd9gSmJLs_qyzf3B7x=w1600-h900-s-no-gm?authuser=0",
+            "access": "password",
+            "accessPassword": "ALO",
+            "blocks": [
+              {
+                "type": "text",
+                "content": "實作一：重複指令 閃爍5次"
+              },
+              {
+                "type": "code",
+                "content": "int LED;  // 全域 整數變數 命名為LED\n\nvoid setup() {\n  pinMode(22, OUTPUT);\n  pinMode(23, OUTPUT);\n}\n\nvoid loop() {\n  for (LED = 0; LED <= 5; LED++) {  // 重複次數5次\n    digitalWrite(22, 1);\n    delay(300);\n    digitalWrite(22, 0);\n    delay(300);\n  }\n\n  digitalWrite(23, 1);  // 觀察是否執行5次\n  delay(1000);\n  digitalWrite(23, 0);\n}"
+              },
+              {
+                "type": "video",
+                "content": "https://youtu.be/qElPAzkGI0g?si=COFrcd2Lcceknr56"
+              },
+              {
+                "type": "text",
+                "content": "實作二：同步迴圈"
+              },
+              {
+                "type": "code",
+                "content": "int LED;  // 全域 整數變數 命名為LED\n\nvoid setup() {\n  for (LED = 22; LED <= 37; LED++) pinMode(LED, OUTPUT);\n}\n\nvoid loop() {\n  for (LED = 22; LED <= 29; LED++) {  // 22~29\n    digitalWrite(LED, 1);\n  }\n  delay(500);\n  for (LED = 22; LED <= 29; LED++) {  // 22~29\n    digitalWrite(LED, 0);\n  }\n\n  for (LED = 30; LED <= 37; LED++) {  // 30~37\n    digitalWrite(LED, 1);\n  }\n  delay(500);\n  for (LED = 30; LED <= 37; LED++) {  // 30~37\n    digitalWrite(LED, 0);\n  }\n}"
+              },
+              {
+                "type": "video",
+                "content": "https://youtu.be/u8T1I87ppbg?si=xxPDZLnPZ7GQFToK"
+              }
+            ],
+            "tags": [
+              "Arduino",
+              "Uno",
+              "Mega2560",
+              "LED",
+              "For"
+            ]
+          },
+          {
+            "title": "Ex14 - For鳥槽與進階",
+            "id": "608310514",
+            "mode": "article",
+            "coverUrl": "https://lh3.googleusercontent.com/pw/AP1GczMaKnbBexuvqozdvNU76EBFH7Tdtcv1Y-CJAhPGakNiO0XsnZTar2vKfPOKP4HsTnclVf_T_NZwvDDqMNf3iYEqgq8VsLKqAPoyee5Cw7tUH-kCAx2mOpo38puZMm_1Q3DHYcS76DyiaJSDB9W8RkCT=w1600-h900-s-no-gm?authuser=0",
+            "access": "password",
+            "accessPassword": "ALO",
+            "blocks": [
+              {
+                "type": "video",
+                "content": "https://youtu.be/_YMFai5JSQ0?si=CgISjuBIERQrA8CF"
+              },
+              {
+                "type": "text",
+                "content": "實作一：鳥曹迴圈4次"
+              },
+              {
+                "type": "code",
+                "content": "void setup() {\n  // put your setup code here, to run once:\n  pinMode(10, OUTPUT);\n  pinMode(11, OUTPUT);\n}\n\nvoid loop() {\n  // put your main code here, to run repeatedly:\n  for (int ii = 0; ii <= 3; ii++) {  // 重複4次\n    for (int i = 0; i <= 255; i++) { // PWM 0%~255%\n      analogWrite(10, i);\n      analogWrite(11, i);\n      delay(10);\n    }\n  }\n  analogWrite(10, 0); // 檢查是否做4次重複 並 做PWM\n  analogWrite(11, 0);\n  delay(5000);\n}"
+              },
+              {
+                "type": "video",
+                "content": "https://youtu.be/AeXnT2oTL88?si=9DvMlNUisqnOdfgJ"
+              },
+              {
+                "type": "text",
+                "content": "實作二：鳥曹迴圈3次"
+              },
+              {
+                "type": "code",
+                "content": "void setup() {\n  // put your setup code here, to run once:\n  pinMode(10, OUTPUT);\n  pinMode(11, OUTPUT);\n}\n\nvoid loop() {\n  // put your main code here, to run repeatedly:\n  for (int ii = 0; ii < 3; ii++) {  // 重複3次\n    for (int i = 0; i <= 255; i++) { // PWM 0%~255%\n      analogWrite(10, i);\n      analogWrite(11, i);\n      delay(10);\n    }\n  }\n  analogWrite(10, 0); // 檢查是否做3次重複 並 做PWM\n  analogWrite(11, 0);\n  delay(5000);\n}"
+              },
+              {
+                "type": "video",
+                "content": "https://youtu.be/hbtFTik1v9o?si=DFyFZNM1WehVNhU2"
+              },
+              {
+                "type": "text",
+                "content": "實作三：0~8/9~16 一起亮過去"
+              },
+              {
+                "type": "code",
+                "content": "int LED;  // 宣告整數變數LED\n\nvoid setup() {\n  for (LED = 22; LED <= 37; LED++) pinMode(LED, OUTPUT);\n}\n\nvoid loop() {\n  for (int led01 = 22, led02 = 30; led01 <= 29, led02 <= 37; led01++, led02++) {\n    digitalWrite(led01, 1);\n    digitalWrite(led02, 1);\n    delay(300);\n  }\n  for (LED = 22; LED <= 37; LED++) digitalWrite(LED, 0);\n  delay(3000);\n}"
+              },
+              {
+                "type": "video",
+                "content": "https://youtu.be/mWxZDyw3KSA?si=-gpERsu6A-zM7yJc"
+              },
+              {
+                "type": "text",
+                "content": "練習題：兩側往中間亮過去"
+              },
+              {
+                "type": "code",
+                "content": "int LED;  // 宣告整數變數LED\n\nvoid setup() {\n  for (LED = 22; LED <= 37; LED++) pinMode(LED, OUTPUT);\n}\n\nvoid loop() {\n  for (int led01 = 22, led02 = 37; led01 <= 29, led02 >= 30; led01++, led02--) {\n    digitalWrite(led01, 1);\n    digitalWrite(led02, 1);\n    delay(300);\n  }\n  for (LED = 22; LED <= 37; LED++) digitalWrite(LED, 0);\n  delay(3000);\n}"
+              },
+              {
+                "type": "video",
+                "content": "https://youtu.be/VbR7u6r1HNU?si=tcqOdXla4DFpTfzV"
+              }
+            ],
+            "tags": [
+              "Arduino",
+              "Uno",
+              "Mega2560",
+              "LED",
+              "For"
             ]
           }
         ]
