@@ -1020,14 +1020,14 @@ var courseData = [
             "title": "Ex03 - 外傳篇01-認識開發板",
             "id": "608310403",
             "mode": "video",
-            "coverUrl": "",
+            "coverUrl": "https://lh3.googleusercontent.com/pw/AP1GczNlIblFzfi-cIb8dDjxZ84gmpGpQVUCTmjJXoiQmY3MWWUYRUnb9OPNWmnmuJhqC2Dj_XqCJQezUwBOQBvI42-XLxa7i5tS5HbDJxudm50uAlkT0J9_m3UIkPwdh37FKj4OBuM7Ly4wLvUDbP1Rq-T6=w1620-h911-s-no-gm?authuser=0",
             "access": "password",
             "accessPassword": "ALO",
-            "videoUrl": "https://youtu.be/mtNGAVhjDsM?si=2LBB2TxddKXZC0gp",
-            "videoNote": "💽影片名稱：[Arduino外傳篇] 第01集 - 認識開發板\n🎬集數：01集",
             "tags": [
               "Arduino"
-            ]
+            ],
+            "videoUrl": "https://youtu.be/mtNGAVhjDsM?si=2LBB2TxddKXZC0gp",
+            "videoNote": "💽影片名稱：[Arduino外傳篇] 第01集 - 認識開發板\n🎬集數：01集"
           },
           {
             "title": "Ex04 - 寫程式02-LED燈亮 與 驅動程式更新",
@@ -1087,14 +1087,14 @@ var courseData = [
             "title": "Ex06 - 外傳篇02-認識電腦語言",
             "id": "608310406",
             "mode": "video",
-            "coverUrl": "",
+            "coverUrl": "https://lh3.googleusercontent.com/pw/AP1GczNwYZn_Zt6ZCHZHpo2TY6Psezq0rBOS9vv31PSQHxzlsGjAFfgDMDvXZZsdQoY_PfhhQ-4J3rOzL2VCC8mXFb8oZEiWyGRai_6ZCJlK8TN8QhxLJlBjKOQ8FUN6NQSQbC5n8piT8M5tf4QDMLEZQtMx=w1620-h911-s-no-gm?authuser=0",
             "access": "password",
             "accessPassword": "ALO",
-            "videoUrl": "https://youtu.be/U2J8_aCZzhA?si=_yybKORQP3Fy1VTg",
-            "videoNote": "💽影片名稱：[Arduino外傳篇] 第02集 - 認識電腦語言\n🎬集數：02集",
             "tags": [
               "Arduino"
-            ]
+            ],
+            "videoUrl": "https://youtu.be/U2J8_aCZzhA?si=_yybKORQP3Fy1VTg",
+            "videoNote": "💽影片名稱：[Arduino外傳篇] 第02集 - 認識電腦語言\n🎬集數：02集"
           },
           {
             "title": "Ex07 - 寫程式03-LED閃爍",
@@ -1178,14 +1178,14 @@ var courseData = [
             "title": "Ex09 - 外傳篇03-二進位 與 十進位",
             "id": "608310409",
             "mode": "video",
-            "coverUrl": "",
+            "coverUrl": "https://lh3.googleusercontent.com/pw/AP1GczPeFkPDho0sZ7pd4bsSd6YERJ9mo_EJxu1jwrdp51F3ZOChPcm1pz3x5M00MwpY-d-njAzb1MREDR9lGxTMLh3Uu_2F3ODIsAJqDOtWKkpjc88gJjXh6-3pzqsc-KG1j1HQmmwBuqM-9CUTOD7debnv=w1620-h911-s-no-gm?authuser=0",
             "access": "password",
             "accessPassword": "ALO",
-            "videoUrl": "https://youtu.be/1q58StkCRDM?si=8FhvEVedBre2h_-z",
-            "videoNote": "💽影片名稱：[Arduino外傳篇] 第03集 - 二進位 與 十進位\n🎬集數：03集",
             "tags": [
               "Arduino"
-            ]
+            ],
+            "videoUrl": "https://youtu.be/1q58StkCRDM?si=8FhvEVedBre2h_-z",
+            "videoNote": "💽影片名稱：[Arduino外傳篇] 第03集 - 二進位 與 十進位\n🎬集數：03集"
           },
           {
             "title": "Ex10 - 寫程式04-LED同時亮與暗",
@@ -1269,14 +1269,14 @@ var courseData = [
             "title": "Ex12 - 外傳篇04-十六進位",
             "id": "608310412",
             "mode": "video",
-            "coverUrl": "",
+            "coverUrl": "https://lh3.googleusercontent.com/pw/AP1GczPRH9XAnOG_S5cz-lsecBJkJCDFm3dVaJ1txG-CLxrbFEDCsRm8DWlLwqbWVVHEhHID9nLMaBXErlZER4b1mkhAGytYTd4NeBZoJVltDuHyH7Med2u3rzJaUK-HGt5bmXNmIK5Bep5lTc4xwh_d5qBh=w1620-h911-s-no-gm?authuser=0",
             "access": "password",
             "accessPassword": "ALO",
-            "videoUrl": "https://youtu.be/TX82EezNMLw?si=DkiirtzSy77LHsl5",
-            "videoNote": "💽影片名稱：[Arduino外傳篇] 第04集 - 十六進位\n🎬集數：04集",
             "tags": [
               "Arduino"
-            ]
+            ],
+            "videoUrl": "https://youtu.be/TX82EezNMLw?si=DkiirtzSy77LHsl5",
+            "videoNote": "💽影片名稱：[Arduino外傳篇] 第04集 - 十六進位\n🎬集數：04集"
           },
           {
             "title": "Ex13 - 寫程式05-LED呼吸燈",
@@ -1352,14 +1352,14 @@ var courseData = [
             "title": "Ex15 - 外傳篇05-小數進位",
             "id": "608310415",
             "mode": "video",
-            "coverUrl": "",
+            "coverUrl": "https://lh3.googleusercontent.com/pw/AP1GczMDwOiW4ujL08OQIQy2-mV7B4Fxf5ZWt6lxkV6shD9PBKuEA3WDz7LTKldgvmEgwR1yJoM9HVQvLDE3R78KyFodWqKi874JFVyBvIhQcDjdCTNN0ORug_QOcTNBMWwnXh4mH1vbHhbC1wxj6O2dC0Gw=w1620-h911-s-no-gm?authuser=0",
             "access": "password",
             "accessPassword": "ALO",
-            "videoUrl": "https://youtu.be/EphuJBS9Jdo?si=MP39rYOGhkVBmfpO",
-            "videoNote": "💽影片名稱：[Arduino外傳篇] 第05集 - 小數進位\n🎬集數：05集",
             "tags": [
               "Arduino"
-            ]
+            ],
+            "videoUrl": "https://youtu.be/EphuJBS9Jdo?si=MP39rYOGhkVBmfpO",
+            "videoNote": "💽影片名稱：[Arduino外傳篇] 第05集 - 小數進位\n🎬集數：05集"
           },
           {
             "title": "Ex16 - 寫程式06-迴圈++指令",
@@ -1427,16 +1427,16 @@ var courseData = [
             "title": "Ex17 - 外傳篇06-CH340驅動安裝",
             "id": "608310417",
             "mode": "video",
-            "coverUrl": "",
+            "coverUrl": "https://lh3.googleusercontent.com/pw/AP1GczMp2R0Mz4nWUNuH3zonWNcOgBUMPboELsFympaBkDP_6kniBPF0tvXk6XmLPKK6ZveklN6C3S7xYYqbTcRUWNQBHn7EwJInzh_3cZXqz6zpCYLoyfWca4yjvhVhy0F2dIt-17-FDm153Shw1YxheX_n=w1620-h911-s-no-gm?authuser=0",
             "access": "password",
             "accessPassword": "ALO",
-            "videoUrl": "https://youtu.be/Vzam_8A7yiQ?si=0yKpHd_BT_c6VzlM",
-            "videoNote": "💽影片名稱：[Arduino外傳篇] 第06集 - CH340驅動程式\n🎬集數：06集",
             "tags": [
               "Arduino",
               "下載",
               "安裝"
-            ]
+            ],
+            "videoUrl": "https://youtu.be/Vzam_8A7yiQ?si=0yKpHd_BT_c6VzlM",
+            "videoNote": "💽影片名稱：[Arduino外傳篇] 第06集 - CH340驅動程式\n🎬集數：06集"
           },
           {
             "title": "Ex18 - 寫程式07-迴圈--指令",
@@ -1504,18 +1504,18 @@ var courseData = [
             "title": "Ex19 - 外傳篇07- 線上模擬器",
             "id": "608310419",
             "mode": "video",
-            "coverUrl": "",
+            "coverUrl": "https://lh3.googleusercontent.com/pw/AP1GczPIpIL94SkcUY4sDBcrgzrAdOMSnCjO8AQKdjuOxIs8MyVBJKUH4IscbC5a-tY4SCd0d0gEjoa_ae523m-w3pMZ7CdXJ6kiyuNhzMNr0te0y21RlnunMSoMdQJYII-LgFS0u3MBiPs5-BwyPC1oM3jm=w1620-h911-s-no-gm?authuser=0",
             "access": "password",
             "accessPassword": "ALO",
-            "videoUrl": "https://youtu.be/Y6EDO-uPzSc?si=KVRyJzgLPA1tlaQ6",
-            "videoNote": "💽影片名稱：[Arduino外傳篇] 第07集 - 線上模擬器\n🎬集數：07集",
             "tags": [
               "Arduino",
               "Uno",
               "Mega2560",
               "寫程式",
               "拉方塊"
-            ]
+            ],
+            "videoUrl": "https://youtu.be/Y6EDO-uPzSc?si=KVRyJzgLPA1tlaQ6",
+            "videoNote": "💽影片名稱：[Arduino外傳篇] 第07集 - 線上模擬器\n🎬集數：07集"
           },
           {
             "title": "Ex20 - 寫程式08- 迴圈基與偶指令",
@@ -4804,9 +4804,16 @@ var courseData = [
             "title": "Ex67 - 寫程式45-LED 8x8矩陣",
             "id": "608310467",
             "mode": "article",
-            "coverUrl": "",
+            "coverUrl": "https://lh3.googleusercontent.com/pw/AP1GczPYn151n_6EaEAzUqs76eVtHAV77drJUl20OpWQke-TNsf9NnVi2X0AFFx4UL5vRleXXEW-AEbquZBmtKjkJkQaF5PGVpHCXEXOUHGdY9xl83g28DDPTW1d4FNzWoLjY2chNi5SeJ810KPOwFytR3C3=w1620-h911-s-no-gm?authuser=0",
             "access": "password",
             "accessPassword": "ALO",
+            "tags": [
+              "Arduino",
+              "Uno",
+              "Mega2560",
+              "寫程式",
+              "LED"
+            ],
             "blocks": [
               {
                 "type": "video",
@@ -4876,13 +4883,6 @@ var courseData = [
                 "type": "code",
                 "content": "int a, b, c; //a=圖形腳位 b=圖形掃描 c=圖形設計\n\nint b01[8][16] = {\n  {1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1},\n  {1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0},\n  {1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0},\n  {1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0},\n  {1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0},\n  {1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0},\n  {1, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0},\n  {1, 1, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0}\n};\n\nint pinb01[] = {21, 22, 23, 24, 25, 26, 27, 28, 31, 32, 33, 34, 35, 36, 37, 38};\n\nvoid pb01(int c) {\n  for (a = 0; a < 16; a++) {\n    digitalWrite(pinb01[a], b01[c][a]);\n  }\n}\n\nvoid jpg01() {\n  for (int k = 0; k <= 7; k++) {\n    pb01(k);\n    delay(1);\n  }\n}\n\nint b02[8][16] = {\n  {0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1},\n  {1, 0, 1, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0},\n  {1, 1, 0, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0},\n  {1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0},\n  {1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0},\n  {1, 1, 0, 1, 1, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0},\n  {1, 0, 1, 1, 1, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0},\n  {0, 1, 1, 1, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0}\n};\n\nint pinb02[] = {21, 22, 23, 24, 25, 26, 27, 28, 31, 32, 33, 34, 35, 36, 37, 38};\n\nvoid pb02(int c) {\n  for (a = 0; a < 16; a++) {\n    digitalWrite(pinb02[a], b02[c][a]);\n  }\n}\n\nvoid jpg02() {\n  for (int k = 0; k <= 7; k++) {\n    pb02(k);\n    delay(1);\n  }\n}\n\nvoid setup() {\n  for (int led01 = 21; led01 <= 28; led01++) {\n    pinMode(led01, OUTPUT);\n  }\n  for (int led02 = 31; led02 <= 38; led02++) {\n    pinMode(led02, OUTPUT);\n  }\n}\n\nvoid loop() {\n  for (int i = 0; i <= 200; i++) {\n    jpg01();\n  }\n  for (int i = 0; i <= 200; i++) {\n    jpg02();\n  }\n}"
               }
-            ],
-            "tags": [
-              "Arduino",
-              "Uno",
-              "Mega2560",
-              "寫程式",
-              "LED"
             ]
           },
           {
@@ -5147,9 +5147,16 @@ var courseData = [
             "title": "Ex72 - 外傳篇08-4x4x4立體LED 製作",
             "id": "608310472",
             "mode": "article",
-            "coverUrl": "",
+            "coverUrl": "https://lh3.googleusercontent.com/pw/AP1GczPC8tgRXWQvMZGgmYg1oyjfEfr26YPYoDlvKHS-vCIN7kZ4YTps-kq_nHvRwXrcFbpXY9fR8uwahtEtg2U-8c0jY2oDAFKzsBFbbg8lvnxnjA6kN-ZtTW3vc0s0ds9Fw90EuDEMHyfa0lJ6eOXr3qyy=w1620-h911-s-no-gm?authuser=0",
             "access": "password",
             "accessPassword": "ALO",
+            "tags": [
+              "Arduino",
+              "Uno",
+              "Mega2560",
+              "寫程式",
+              "LED"
+            ],
             "blocks": [
               {
                 "type": "video",
@@ -5251,13 +5258,6 @@ var courseData = [
                 "type": "text",
                 "content": "▲ 以上圖片皆為 @CCplus2561 實作拍攝"
               }
-            ],
-            "tags": [
-              "Arduino",
-              "Uno",
-              "Mega2560",
-              "寫程式",
-              "LED"
             ]
           },
           {
@@ -7335,6 +7335,15 @@ var courseData = [
                 "url": "https://mega.nz/file/ftoziYxL#9kj1BgP5R2MOiicg2ozmVieezVHt1aZG9ZghYu8ujQ8"
               }
             ],
+            "tags": [
+              "GitHub",
+              "部署",
+              "網頁",
+              "HTML",
+              "Google",
+              "Drive",
+              "API"
+            ],
             "blocks": [
               {
                 "type": "pdf",
@@ -7352,13 +7361,6 @@ var courseData = [
                 "type": "code",
                 "content": "http://localhost:5500\nhttps://[您的GitHub帳號].github.io"
               }
-            ],
-            "tags": [
-              "GitHub",
-              "部署",
-              "網頁",
-              "HTML",
-              "Google"
             ]
           }
         ]
@@ -7644,6 +7646,57 @@ var courseData = [
           }
         ],
         "type": "Ch"
+      },
+      {
+        "title": "Ch04 - Google系統安裝",
+        "id": "6091804",
+        "type": "Ch"
+      },
+      {
+        "title": "Ch05 - Apps Script 自動腳本",
+        "id": "6091805",
+        "type": "Ch"
+      },
+      {
+        "title": "Ch06 - Firebase 資料儲存",
+        "id": "6091806",
+        "type": "Ch",
+        "sections": [
+          {
+            "title": "Ex01 - Realtime Database 建立教學",
+            "id": "609180601",
+            "mode": "pdf",
+            "coverUrl": "https://lh3.googleusercontent.com/pw/AP1GczPhZsri5DqBtnrZcRgcVPwo6vDieZpyqEjMdQsY1rlrhXgjPCFvIy9AL9bo2mAjRO-5trDKNg9Na3b5sRhPplb-h_vLAPVHiflAjefaI7dxx8n10bPBVE28pU7wAvKwW7JUS7D6Q4CJLD76tKE-iUGE=w1280-h720-s-no-gm?authuser=0",
+            "tags": [
+              "Google",
+              "firebase"
+            ],
+            "pdfUrl": "https://drive.google.com/file/d/1-bpy0ZwXja4X6sHwo687tdZ1HMI3r_0m/preview"
+          },
+          {
+            "title": "Ex02 - Firestore 建立教學",
+            "id": "609180602",
+            "mode": "pdf",
+            "coverUrl": "https://lh3.googleusercontent.com/pw/AP1GczMXvD-8x-NnHGPI-G6zr_oXyq-dEl49iNQONZw_fzz5kW2xXWEwlrrX9j_crtb7Y6AchG_Y6CoL1wi94W4RsPLnGrHAc_kxqbmX5Puv3X6Sn_1a_jFW_AyM9ON314ew_hID7dNcuGPPzaKNxzKtYuFn=w1280-h720-s-no-gm?authuser=0",
+            "tags": [
+              "Google",
+              "firebase"
+            ],
+            "pdfUrl": "https://drive.google.com/file/d/1oW6QD3HSUvOfgkGGOMuj4lKzVcdwOw0v/preview"
+          },
+          {
+            "title": "Ex03 - Google Drive API 建立教學",
+            "id": "609180603",
+            "mode": "pdf",
+            "coverUrl": "https://lh3.googleusercontent.com/pw/AP1GczMOuVdU-Se5P_DUmQ0W8FbBx0QkrptMoHg8DdGRwnE4xwbQVX6qRWcht4cZv7kAe1DFKr19Guxpn3WuABpryDg3ySsZ02CHY3K79I9s3MjQzjATrpMD2PBuEvzYVEG43dpJjUR7f-VHXyoQflIaDSA8=w1280-h720-s-no-gm?authuser=0",
+            "tags": [
+              "Google",
+              "Drive",
+              "API"
+            ],
+            "pdfUrl": "https://drive.google.com/file/d/1vz_lUq7Tk4stNe5irnSiAHrrsEQeSCVv/preview"
+          }
+        ]
       }
     ]
   },
