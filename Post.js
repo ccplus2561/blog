@@ -1,7 +1,19 @@
 var postData = [
   {
-    version: "📖 - 新講義 (61106",
+    version: "📖 - 新講義 (61110",
     isExpanded:  true,
+    logs: [
+      {
+        tag: "上架",
+        title: "Google 教學",
+        content: "Ch06 - Google Firebase 資料儲存3篇。"
+      }
+    ]
+  },
+
+  {
+    version: "📖 - 新講義 (61106",
+    isExpanded:  false,
     logs: [
       {
         tag: "上架",
