@@ -7655,7 +7655,386 @@ var courseData = [
       {
         "title": "Ch05 - Apps Script 自動腳本",
         "id": "6091805",
-        "type": "Ch"
+        "type": "Ch",
+        "sections": [
+          {
+            "title": "Ex01 - 個人計算機",
+            "id": "609180501",
+            "mode": "pdf",
+            "coverUrl": "https://lh3.googleusercontent.com/pw/AP1GczN1cmTBZ_JVTlDnAyj8BJ4M_rsh0KlTKXM_7XW9FDblXtmBDpdEorXOildva7E4c_3s0JCTPUYMyMNayjRMFXaYnIGsTGxkfOICQz6hkmuWD-sXO_1q4TbBaidpvBBAgN6Qs43ilMaAYUVBUN2aRhxW=w1280-h720-s-no-gm?authuser=0",
+            "pdfUrl": "https://drive.google.com/file/d/1F0Y27G9BluP_Y9YVcOtOvyy0EXZ636_3/preview",
+            "buttons": [
+              {
+                "title": "教學 Code程式碼",
+                "url": "https://mega.nz/file/KkRCHJaI#0jV2RlAMIEh1INEIada0G0yQKwOFa0g5NLDUQ49z1xI"
+              },
+              {
+                "title": "教學 HTML程式碼",
+                "url": "https://mega.nz/file/uxxFUaxA#4X2bDAEtBbdej0I3hF5Zl1kS3U9lSNsH8AzH5wTf8t0"
+              }
+            ],
+            "tags": [
+              "Google",
+              "HTML",
+              "部署",
+              "Script"
+            ]
+          },
+          {
+            "title": "Ex02 - 意見箱 (Gmail發送)",
+            "id": "609180502",
+            "mode": "pdf",
+            "coverUrl": "https://lh3.googleusercontent.com/pw/AP1GczPwTR6L3pM_Rabg7kIdSTnA9KckRXPDgiTY930lDAfqSI66cZ9h9Yv-MvuIraWaGW3ieXQJ6fdLDtrulDmpr7UCG5AH_Vbp2WzZtRILs-zeKkeB6FcCapDk6NV8-X_8WRg-cX-nJF8YUvWQF7rhC04j=w1280-h720-s-no-gm?authuser=0",
+            "buttons": [
+              {
+                "title": "教學 Code程式碼",
+                "url": "https://mega.nz/file/etp3hIiA#TeAGPKxLy7Wx8LfbsfpHJuCuuhGD0BpmDl2zt6PptWE"
+              },
+              {
+                "title": "教學 HTML程式碼",
+                "url": "https://mega.nz/file/akATFa7S#FYtterXnUu0GnO3KFoOAoJE1nfXkiSjpGG7hmxy2SR4"
+              }
+            ],
+            "tags": [
+              "Google",
+              "HTML",
+              "部署",
+              "Script",
+              "Gmail"
+            ],
+            "pdfUrl": "https://drive.google.com/file/d/1ZNerrkINxVvDN6c0G5VFdqVMRA8rODzg/preview"
+          },
+          {
+            "title": "Ex03 - 客服信件後台 (Gmail讀取)",
+            "id": "609180503",
+            "mode": "pdf",
+            "coverUrl": "https://lh3.googleusercontent.com/pw/AP1GczMCDHN0mJYH_h2pt-KoqGzxUQgPaVN3BUXmRuFsXEk9W5xgHxxdYFshmUdNZMs4Pw8q2Ktior75OsnlGuTxqZZA78Qv9pQuw_6ydCiMJcEytp_vVlzLeISN8ainDmf_RuMorKKn6wq74b22odSpl_Ke=w1280-h720-s-no-gm?authuser=0",
+            "tags": [
+              "Google",
+              "HTML",
+              "部署",
+              "Script",
+              "Gmail"
+            ],
+            "pdfUrl": "https://drive.google.com/file/d/1eL3oyDLsxdjWCfB8Z0wawlHNQ-7fwXNg/preview",
+            "buttons": [
+              {
+                "title": "教學 Code_v1程式碼",
+                "url": "https://mega.nz/file/ShgxCIrI#nj1-bUCvCVM8KD371EA2KKczzKf2IetMiP4fbecqjwI"
+              },
+              {
+                "title": "教學 Code_v2程式碼",
+                "url": "https://mega.nz/file/bw4TBYgS#DE6yVPnpsG_rHyg3kGuWXbrnk5cfelKi4cvQjMgUwIk"
+              },
+              {
+                "title": "教學 HTML程式碼",
+                "url": "https://mega.nz/file/no4AFJpR#ZVDy2-c4t23esxLUC95GDXMnD1xPru5ZovZGEX3sBPY"
+              }
+            ]
+          },
+          {
+            "title": "Ex04 - 活動排程器 (日曆新增)",
+            "id": "609180504",
+            "mode": "pdf",
+            "coverUrl": "https://lh3.googleusercontent.com/pw/AP1GczMaqPfWTb20T5uiByArtWxIzWR8ZVRGi0v_bMzV2bWyVckh1nX_dBwC6VnlRuom--xdhQ_3-dp8-i2IU2vbOlrFR1FNtYAm-vE9RtEun6OmgFnSCyNThz9i4ldhauGQt2ZLFWjIQ8bnzx_5SbgrVVKJ=w1280-h720-s-no-gm?authuser=0",
+            "pdfUrl": "https://drive.google.com/file/d/1OXNOGys65dCEFhCXJ3Xirk_hmb0W_3Fu/preview",
+            "buttons": [
+              {
+                "title": "教學 Code_v1程式碼",
+                "url": "https://mega.nz/file/PkxShCYa#TXVlqXZ95p2sVYtbl5o7njbtlASw0_nTwReY4pQeaJM"
+              },
+              {
+                "title": "教學 Code_v2程式碼",
+                "url": "https://mega.nz/file/atokxApK#jBHbzgJY7eLk3u8FXOLk9aPXUVMxIRk7tcYAmaVjJ9Y"
+              },
+              {
+                "title": "教學 HTML_v1程式碼",
+                "url": "https://mega.nz/file/fsIQgQTZ#TN494ZxkvH2UD7jZQOOolgaJXDmLMPwfgldHaxvHCd8"
+              },
+              {
+                "title": "教學 HTML_v2程式碼",
+                "url": "https://mega.nz/file/Dkxk3IhS#7WBx_EoiMmo1VILs1C5J9tVuIqASkrae6S_PKZ8xSPk"
+              }
+            ],
+            "tags": [
+              "Google",
+              "HTML",
+              "部署",
+              "Script",
+              "日曆"
+            ]
+          },
+          {
+            "title": "Ex05 - 行事曆看板 (日曆讀取)",
+            "id": "609180505",
+            "mode": "pdf",
+            "coverUrl": "https://lh3.googleusercontent.com/pw/AP1GczPFGo3ufKF1qwvI52cV-0C98J-Tdn7C4fHGwRb_GSx7gufNBcn0J9R2Bihy3K-s6UWS0mD37lEopznbf76JFQ66PqCldkVnoJXOCDgmg83zQkCPCq5PfLCcNiGNg9lxG9aQB8pdOBBD2CHct_ugFK0e=w1280-h720-s-no-gm?authuser=0",
+            "pdfUrl": "https://drive.google.com/file/d/1qmZ3REuAHXguhrdWJJm3cPRgCZE_xysQ/preview",
+            "buttons": [
+              {
+                "title": "教學 Code程式碼",
+                "url": "https://mega.nz/file/z5IFGAaC#lGf9HWeWZfDJ30D987UFz90u6hEO0rKcONNCrACXCpA"
+              },
+              {
+                "title": "教學 HTML程式碼",
+                "url": "https://mega.nz/file/KoxyyBLJ#vgSt2M9TR_vKlLwj3JDsFCDzKlrvMpGWsfkvcK-WDL4"
+              }
+            ],
+            "tags": [
+              "Google",
+              "HTML",
+              "部署",
+              "Script",
+              "日曆"
+            ]
+          },
+          {
+            "title": "Ex06 - 甜點店營業狀態(雲端硬碟JSON)",
+            "id": "609180506",
+            "mode": "pdf",
+            "coverUrl": "https://lh3.googleusercontent.com/pw/AP1GczN5AHrnmOipanTDuU2bqojsUt6fDBxu2AwwgGgnIUx2Jj1GsRaen-yV-gmyv0WqxOisKSaJXzY-cS8Fxyhtq01hNJ85gMFAlNqrTHvlZGwtIBBW1DDGKMf0rsT7nktsm4eAswZallOBWpMqS2PBFhoU=w1280-h720-s-no-gm?authuser=0",
+            "buttons": [
+              {
+                "title": "教學 Code程式碼",
+                "url": "https://mega.nz/file/DlYByBiK#P8rNtb4UdFhlK3YqI_QTeAkbJB6Iw1x8StJXv65iHRo"
+              },
+              {
+                "title": "教學 HTML程式碼",
+                "url": "https://mega.nz/file/HxhCzTra#QWksCzlV0T0t9Q_kql-ZepKbDJbVbs8y6TWltULPvZ4"
+              },
+              {
+                "title": "教學 JSON程式碼",
+                "url": "https://mega.nz/file/7sB2TJwK#uqOnRLnpCk8iyyd5BJMladSqkC6W8UCGi6WA5d0uR20"
+              }
+            ],
+            "tags": [
+              "Google",
+              "HTML",
+              "部署",
+              "Script",
+              "Drive",
+              "雲端硬碟"
+            ],
+            "pdfUrl": "https://drive.google.com/file/d/1852aikkBbDPIh6SmiQDEYKsSqkra3r9t/preview"
+          },
+          {
+            "title": "Ex07 - 甜點線上點餐單(試算表 寫入)",
+            "id": "609180507",
+            "mode": "pdf",
+            "coverUrl": "https://lh3.googleusercontent.com/pw/AP1GczMvIilRjVA9c4whaCrD0SHH6KkJ67wQxaol2Q5HhLiyg15Sw6n8j88jjkF6-1JDn3XlNIRa4mIU3R6t7ZwyQdHa4OQn82O6v2RPMTSsPtuMPXojGsCWEehCB8sXEY08rRLISr0GRCh_5RxLb-gEr5re=w1280-h720-s-no-gm?authuser=0",
+            "pdfUrl": "https://drive.google.com/file/d/1qbo_TRn_vhDJtvO7kOHTg8I88ncYqO5o/preview",
+            "buttons": [
+              {
+                "title": "教學 Code程式碼",
+                "url": "https://mega.nz/file/6gx2AZxb#7r9LHkF_2-Cx1giBZRh1ZqK0mHb-q1Vaze_6S553X6Q"
+              },
+              {
+                "title": "教學 HTML程式碼",
+                "url": "https://mega.nz/file/GgJUVR5C#vGProSMoT8HKQsjvwfc9MbQIdJk1vgrMzLJjMekHA6c"
+              }
+            ],
+            "tags": [
+              "Google",
+              "HTML",
+              "部署",
+              "Script",
+              "試算表",
+              "Excel"
+            ]
+          },
+          {
+            "title": "Ex08 - 甜點後台明細表(試算表 讀取)",
+            "id": "609180508",
+            "mode": "pdf",
+            "coverUrl": "https://lh3.googleusercontent.com/pw/AP1GczPjBQ8SpfiO7o_mphMJI-o_Q59Nj77pUSbPTCxX7rOtuEkcvs7aiJQEwutZRpPgp6CnezUJHDJNSpydDvCFic33JkvSYeeAVVI5AUWeHcc2IFePH-kIvBDtHq9ie2CmB1H1BNGFQIe6iV82C9wzvUvm=w1280-h720-s-no-gm?authuser=0",
+            "pdfUrl": "https://drive.google.com/file/d/1CKXpTR76y8PqF6qoqPpk6JQQf5BGwfU2/preview",
+            "buttons": [
+              {
+                "title": "教學 Code_v1程式碼",
+                "url": "https://mega.nz/file/zpYTDZ5C#TRkh4HALkTlPMHsm14NIqMbtvf2y8KTcEyMnBzN82K4"
+              },
+              {
+                "title": "教學 Code_v2程式碼",
+                "url": "https://mega.nz/file/D8YXAASA#M3Sy_HtrT4Uy_eKKEacYLOQY2xbRMyORE-prRytZV3U"
+              },
+              {
+                "title": "教學 HTML_v1程式碼",
+                "url": "https://mega.nz/file/DsB01KwR#e2A3LeQgMd7ClqKctGpJAKVVJ2ttEFwrPdOnRbouF0k"
+              },
+              {
+                "title": "教學 HTML_v2程式碼",
+                "url": "https://mega.nz/file/etYnjA6K#-kV5ApN_2lcu-uuwpcODvswM4GqEE0Ks4V5r0_nIKAE"
+              }
+            ],
+            "tags": [
+              "Google",
+              "HTML",
+              "部署",
+              "Script",
+              "試算表",
+              "Excel"
+            ]
+          },
+          {
+            "title": "Ex09 - 即時通報小幫手 (Google Chat)",
+            "id": "609180509",
+            "mode": "pdf",
+            "coverUrl": "https://lh3.googleusercontent.com/pw/AP1GczNw8_odfGDpKr55tpSf3h6k5Oi38ghlHiAswLFdeadWJ_DCHcJ2_NDye18OgZwrT_uzdJbNL6YGJCE_xyYk3ECuLogzKUm3TfeWbGnggHk33oC3u3Z1rU1SDoqMp5c8sEkRRBoOFg8oeekq7pXrwoRI=w1280-h720-s-no-gm?authuser=0",
+            "pdfUrl": "https://drive.google.com/file/d/1khFkfWc1yiMzsLTVLcjAz2X8ZloexM8d/preview",
+            "buttons": [
+              {
+                "title": "教學 Code程式碼",
+                "url": "https://mega.nz/file/D4RjkYKS#gPCq7vSvnbKXMrylmtn4F47zYql3iOGGizprtrcdB8I"
+              },
+              {
+                "title": "教學 HTML程式碼",
+                "url": "https://mega.nz/file/qhIQSDKa#yHZWGwquuv6zGxmEjaWEaUhm9odk7BS0i7lI227wsm4"
+              }
+            ],
+            "tags": [
+              "Google",
+              "HTML",
+              "部署",
+              "Script",
+              "Chat"
+            ]
+          },
+          {
+            "title": "Ex10 - 雲端檔案上傳器(雲端硬碟 Blob)",
+            "id": "609180510",
+            "mode": "pdf",
+            "coverUrl": "https://lh3.googleusercontent.com/pw/AP1GczN4snU4uSHR1vDVRdc_vr0XkZmRwrbZBq92XEXC-y3BSsdYml-rRVxo8jSqM5XXxYLY3LanBC-UejmypRa50ZB_VF6mXPsGGDfIaSR3DBY7ER11qT4or4NuYumSLQ3sNI09h1v-pEs9SvLHPJGWuRLd=w1280-h720-s-no-gm?authuser=0",
+            "pdfUrl": "https://drive.google.com/file/d/1tpXFMXeseuUpXFFC25GauLa7vgbyR_gr/preview",
+            "buttons": [
+              {
+                "title": "教學 Code程式碼",
+                "url": "https://mega.nz/file/jlgiFR6Y#jAlUlQ49dW2ZcZcLXdzo_8il8UsATN32S6pYNwtKZKk"
+              },
+              {
+                "title": "教學 HTML程式碼",
+                "url": "https://mega.nz/file/SsZRmbBS#AoS5Sv9z8liOQvWG_lxkqOQ4_-gR2sqqJzb9wfApeOU"
+              }
+            ],
+            "tags": [
+              "Google",
+              "HTML",
+              "部署",
+              "Script",
+              "Drive",
+              "雲端硬碟"
+            ]
+          },
+          {
+            "title": "Ex11 - 診所線上預約系統(網頁＋試算表＋Gmail)",
+            "id": "609180511",
+            "mode": "pdf",
+            "coverUrl": "https://lh3.googleusercontent.com/pw/AP1GczOEm02PWgDjXH0WVGtH9jVq8l4MjMsZfUi5IBN5oKwHGkH0ddNMZHSccGj_Ulnlc1OIXp3lcb2WC3TRyDT1eddfeVJi4t_xs9E-jfXFFvfwO4fH9_L4ZYYoSMHJgL6vvIYu7QeWCUa2F12fVDrdqzDj=w1280-h720-s-no-gm?authuser=0",
+            "pdfUrl": "https://drive.google.com/file/d/1V9TjhTR0DCJKdDTAWYYUKxUB9_9BDYN1/preview",
+            "buttons": [
+              {
+                "title": "教學 Code程式碼",
+                "url": "https://mega.nz/file/SlR1SK7b#phHY48KymvHbiug8zxJy1jdqzAMpzuEIQfR2eAxApBQ"
+              },
+              {
+                "title": "教學 HTML程式碼",
+                "url": "https://mega.nz/file/L9pSlIbJ#JWa0_w4WeN8_SVa_sBTb_w8RAkihvEZvxRHn1J90fbM"
+              }
+            ],
+            "tags": [
+              "Google",
+              "HTML",
+              "部署",
+              "Script",
+              "Excel",
+              "試算表",
+              "Gmail"
+            ]
+          },
+          {
+            "title": "Ex12 - 研習線上報名系統(網頁＋試算表＋日曆)",
+            "id": "609180512",
+            "mode": "pdf",
+            "coverUrl": "https://lh3.googleusercontent.com/pw/AP1GczP_nbDlxMwF6caJNC_ohbZm0V4f9m_SIXBILe818Xzr5TPXpOjeYrsgMKq-jy39rLUk4M_qQg_ETj1H4gTT39fBuFoNlIM1CqrgbSLL_8RxzbzbZzJ2f7SvbKCxkPxlaPih4yrNfX1jkdF17C24DQbB=w1280-h720-s-no-gm?authuser=0",
+            "pdfUrl": "https://drive.google.com/file/d/1zU2pbAkr6lTAa-9xiDMuI7MQdOm697HN/preview",
+            "buttons": [
+              {
+                "title": "教學 Code程式碼",
+                "url": "https://mega.nz/file/2oRziQTB#KgJUqgn4UQo1YnR3sbf7o4WgCZaF6afAYoH83a9PXmU"
+              },
+              {
+                "title": "教學 HTML程式碼",
+                "url": "https://mega.nz/file/a5BWlKhC#luPIbvnjmM-5fI4shpdUWUcipJPexKyrDsaiI3MLxqk"
+              }
+            ],
+            "tags": [
+              "Google",
+              "HTML",
+              "部署",
+              "Script",
+              "Excel",
+              "試算表",
+              "日曆"
+            ]
+          },
+          {
+            "title": "Ex13 - 文件報表生成器(Google表單＋Drive(Docs)+PDF)",
+            "id": "609180513",
+            "mode": "pdf",
+            "coverUrl": "https://lh3.googleusercontent.com/pw/AP1GczMLaQVK2mgGPaIV6YuzCIfsLiAW-FB-WZHovc079c95IxJddkTACeSTLXpvCFjURqxV6xO9k3KHO3YDaj5S9M7l1viFt54pa5yQ7c-OU1jmCB77GNG_bXKftuNEKa8Qes_S84eCfHdaxHRkOAigrHdN=w1280-h720-s-no-gm?authuser=0",
+            "pdfUrl": "https://drive.google.com/file/d/1iV9IzahD4wT-KVmraM6jjduGSaQMchkk/preview",
+            "buttons": [
+              {
+                "title": "教學 Code程式碼",
+                "url": "https://mega.nz/file/Lk4xnKiK#2y-UgerUSvkOn3Ax6O60IrMcQH9-uZ_wvvgJdjdBJrQ"
+              },
+              {
+                "title": "教學 HTML程式碼",
+                "url": "https://mega.nz/file/C05klYJa#sNQ-aKvD-fS8uxR6--j2yr83vBU_jP61NYq8dxSXx9k"
+              }
+            ],
+            "tags": [
+              "Google",
+              "HTML",
+              "部署",
+              "Script",
+              "Drive",
+              "雲端硬碟",
+              "PDF",
+              "文件",
+              "Word"
+            ]
+          },
+          {
+            "title": "Ex14 - 自動證書套印系統(Google表單＋Drive(Slides)+PDF)",
+            "id": "609180514",
+            "mode": "pdf",
+            "coverUrl": "https://lh3.googleusercontent.com/pw/AP1GczMfkCM4WGH1NFjqqsRCJRpgjoDdTsGljYRw0iIFCcU_AT5Hb-ebqvAj41vCP0Dcdtv6vVkwBmdmkPwwJy1HU78ksVMThZ6mwyWXswEpnivudGF6h1VXNUGmjQdA3NFpTgSpx7iCF-4R1F8a9ECtzLkn=w1280-h720-s-no-gm?authuser=0",
+            "pdfUrl": "https://drive.google.com/file/d/1RMyte7yYtnaYp73EJ4q2fUWj3l86NPCu/preview",
+            "buttons": [
+              {
+                "title": "教學 Code程式碼",
+                "url": "https://mega.nz/file/e1Q30JCA#pVIoanY88iDbrj2swssD492u1V6dnYzD_eBabsyig8g"
+              },
+              {
+                "title": "教學 HTML程式碼",
+                "url": "https://mega.nz/file/Dw4hhJKT#9VNoiRY1diF1SAdMxPr2C4Co7Cjv2sDtWGvc3A4AMUk"
+              }
+            ],
+            "tags": [
+              "Google",
+              "HTML",
+              "部署",
+              "Script",
+              "表單",
+              "Drive",
+              "雲端硬碟",
+              "PDF",
+              "簡報",
+              "PowerPoint",
+              "PPT"
+            ]
+          }
+        ]
       },
       {
         "title": "Ch06 - Firebase 資料儲存",
@@ -7692,7 +8071,8 @@ var courseData = [
             "tags": [
               "Google",
               "Drive",
-              "API"
+              "API",
+              "雲端硬碟"
             ],
             "pdfUrl": "https://drive.google.com/file/d/1vz_lUq7Tk4stNe5irnSiAHrrsEQeSCVv/preview"
           }
@@ -11385,7 +11765,8 @@ var courseData = [
             "coverUrl": "https://lh3.googleusercontent.com/pw/AP1GczP5UkREIj0sDUuw0ysbpAgsnjvai61IhHXEkaUL3QmNMRmrhVlj2jVr4KttxfMvhfR5AuDzdgkI_Wm-XvanrKURNPkp38dSQa1iUVKkNT9emaQXDhKhc3kc7sY4S0LPzmIyFWFYQvVFelFTM_KyVc4D=w1280-h720-s-no-gm?authuser=0",
             "pdfUrl": "https://drive.google.com/file/d/1vg6e_Rx-sRnjpNHOXMENSlHqN8pzCJpY/preview"
           }
-        ]
+        ],
+        "coverUrl": "https://lh3.googleusercontent.com/pw/AP1GczNJb7PEtR9Tn0Fas0xjUq_EZGeDwohHJgLFAtv1bShchk_cQOTJoXYx2-bNNWfECO04cXYOYFTv5DCuuvzzLeEZjYOCTZgEo_2z0VdUndQDnnC3EGv61LeQ1rle_lQDNPwW3Pyk7nyRbWlbLnV8BMLE=w420-h420-s-no-gm?authuser=0"
       },
       {
         "title": "Ch02 - YouBike微笑單車",
@@ -11405,7 +11786,8 @@ var courseData = [
               }
             ]
           }
-        ]
+        ],
+        "coverUrl": "https://lh3.googleusercontent.com/pw/AP1GczMHt96EjvYm2VGJ9GqCCvnPQzbNCL6yRInGOd3tmdn7GcPB1acSdYiEN7fEZ-vM8dmMbA8nZVXDSIJf1k0gk7GLhywwW7LtN1wbFk6Gb110f3Vb_FdUZKF6WuzLbGdOYOASKvfgIRIPmpQJ0zI9jPnJ=w500-h500-s-no-gm?authuser=0"
       },
       {
         "title": "P01 - SAMSUNG 三星教學",
@@ -11482,7 +11864,8 @@ var courseData = [
               }
             ]
           }
-        ]
+        ],
+        "coverUrl": "https://lh3.googleusercontent.com/pw/AP1GczPIKbuxSfU8S_w6jn0PsxSRWQ-O7x0UfN76JaQbNxoUHzDgxCRTjHYyETbdoV1N8tUj7g82IT-PHL6gnuGjxc_-rOpaRtfi6vTp7FTv_f9YyIi16xcOtu-D6mFWjUWCIykppBqD025_0GVSceKc3sqW=w675-h369-s-no-gm?authuser=0"
       }
     ]
   }
