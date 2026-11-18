@@ -1,7 +1,18 @@
 var postData = [
   {
-    version: "📖 - 新講義 (61110",
+    version: "📖 - 新講義 (61116",
     isExpanded:  true,
+    logs: [
+      {
+        tag: "上架",
+        title: "Google 教學",
+        content: "Ch05 - Google Apps Script 自動腳本14篇。"
+      }
+    ]
+  },
+  {
+    version: "📖 - 新講義 (61110",
+    isExpanded:  false,
     logs: [
       {
         tag: "上架",
@@ -10,7 +21,6 @@ var postData = [
       }
     ]
   },
-
   {
     version: "📖 - 新講義 (61106",
     isExpanded:  false,
